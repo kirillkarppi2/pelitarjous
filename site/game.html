@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{TITLE}} halvimmillaan {{PRICE}} | Pelitarjous</title>
+<meta name="description" content="{{DESC}}">
+<link rel="canonical" href="{{CANONICAL}}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,500;62..125,700;62..125,900&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<div class="top"><div class="in">
+  <a class="logo" href="../../" aria-label="Pelitarjous etusivu">Peli<span>tarjous</span></a>
+  <nav aria-label="Päävalikko">
+    <a href="../../#alennukset">Alennukset</a>
+    <a href="../../#ilmaiset">Ilmaiset pelit</a>
+    <a href="../../#tilaukset">Tilaukset</a>
+    <a href="../../#tietoa">Tietoa</a>
+  </nav>
+</div></div>
+<main class="wrap">
+  <p class="crumb"><a href="../../#alennukset">Alennukset</a> / {{TITLE}}</p>
+  <div class="game">
+    <div>
+      <img class="cover" src="{{IMG}}" alt="{{TITLE}}">
+      <div class="buy">
+        <span class="sticker">-{{DISC}}%</span>
+        <span class="was">Normaalisti {{ORIG}}</span>
+        <span class="big">{{PRICE}}</span>
+        <span class="{{VERDICT_CLASS}}">{{VERDICT}}</span>
+        <a class="btn" href="{{URL}}" rel="noopener">Osta kaupasta {{STORE}}</a>
+      </div>
+    </div>
+    <div style="display:grid;gap:20px">
+      <h1>{{TITLE}}</h1>
+      <div class="meta">{{PILLS}}</div>
+      <section class="box"><h2>Hinnat kaupoittain</h2><div class="tw"><table>
+        <thead><tr><th>Kauppa</th><th class="n">Normaali</th><th class="n">Alennus</th><th class="n">Hinta nyt</th><th></th></tr></thead>
+        <tbody>{{SHOPS}}</tbody></table></div></section>
+      <section class="box"><h2>Hintahistoria</h2><div class="tw"><table>
+        <thead><tr><th>Päivä</th><th>Kauppa</th><th class="n">Hinta</th></tr></thead>
+        <tbody>{{HISTORY}}</tbody></table></div></section>
+      <p class="note">{{HISTNOTE}}</p>
+    </div>
+  </div>
+  <footer><span class="note">Pelitarjous · Hinnat päivitetty {{UPDATED}}. Hinnat voivat muuttua, tarkista lopullinen hinta kaupasta. Hintavertailun data: <a href="https://isthereanydeal.com/">IsThereAnyDeal</a>.</span><a class="note" href="../../#tietoa">Mistä sivu saa tulonsa</a></footer>
+</main>
+</body>
+</html>

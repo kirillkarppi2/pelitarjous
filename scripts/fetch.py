@@ -4,7 +4,7 @@ Tulos:
   data/deals.json    tämänhetkinen tilanne, josta sivu rakennetaan
   data/history.csv   hintahistoria: uusi rivi aina kun pelin hinta muuttuu
 """
-import csv, json, os, sys, time, urllib.error, urllib.parse, urllib.request
+import csv, json, os, re, sys, time, unicodedata, urllib.error, urllib.parse, urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, "data")
@@ -13,10 +13,19 @@ REPO = os.environ.get("GITHUB_REPOSITORY", "local/dev")
 UA = f"Pelitarjous/0.1 (+https://github.com/{REPO})"
 
 
-def get(url):
+ITAD = "https://api.isthereanydeal.com"
+ITAD_KEY = os.environ.get("ITAD_API_KEY", "").strip()
+
+
+def get(url, body=None, headers=None):
     for _ in range(6):
         try:
-            req = urllib.request.Request(url, headers={"User-Agent": UA})
+            h = {"User-Agent": UA, **(headers or {})}
+            data = None
+            if body is not None:
+                data = json.dumps(body).encode()
+                h["Content-Type"] = "application/json"
+            req = urllib.request.Request(url, data=data, headers=h)
             with urllib.request.urlopen(req, timeout=30) as r:
                 return json.loads(r.read())
         except urllib.error.HTTPError as e:
@@ -25,6 +34,60 @@ def get(url):
                 continue
             raise
     raise RuntimeError("rate limited: " + url)
+
+
+def slugify(title, gid):
+    s = unicodedata.normalize("NFKD", title).encode("ascii", "ignore").decode().lower()
+    s = re.sub(r"[^a-z0-9]+", "-", s).strip("-")[:60].strip("-")
+    return f"{s or 'peli'}-{gid}"
+
+
+def add_itad(games):
+    """Lisää jokaiselle pelille hinnat muista kaupoista (EUR, Suomi) ja kaikkien aikojen alimman hinnan."""
+    if not ITAD_KEY:
+        print("ITAD_API_KEY puuttuu, ohitetaan muut kaupat")
+        return
+    hdr = {"ITAD-API-Key": ITAD_KEY}
+    ids = {}
+    steam_ids = [g["id"] for g in games]
+    for i in range(0, len(steam_ids), 200):
+        chunk = steam_ids[i:i + 200]
+        r = get(f"{ITAD}/lookup/id/shop/61/v1", body=[f"app/{a}" for a in chunk], headers=hdr)
+        for a in chunk:
+            if r.get(f"app/{a}"):
+                ids[a] = r[f"app/{a}"]
+        time.sleep(1)
+    prices = {}
+    uuids = list(ids.values())
+    for i in range(0, len(uuids), 200):
+        for row in get(f"{ITAD}/games/prices/v3?country=FI", body=uuids[i:i + 200], headers=hdr):
+            prices[row["id"]] = row
+        time.sleep(1)
+    n = 0
+    for g in games:
+        row = prices.get(ids.get(g["id"]))
+        if not row:
+            continue
+        shops = []
+        for d in row.get("deals") or []:
+            p, reg = d.get("price") or {}, d.get("regular") or {}
+            if p.get("currency") != "EUR" or p.get("amount") is None:
+                continue
+            shops.append({"shop": d["shop"]["name"], "price": p["amount"], "regular": reg.get("amount", p["amount"]),
+                          "cut": d.get("cut", 0), "url": d.get("url") or g["url"]})
+        shops.sort(key=lambda s: s["price"])
+        low = ((row.get("historyLow") or {}).get("all") or {})
+        if low.get("currency") == "EUR":
+            g["low"] = low["amount"]
+        if shops:
+            g["shops"] = shops
+            n += 1
+            best = shops[0]
+            if best["price"] < g["price"]:   # jokin kauppa on Steamia halvempi
+                g["steamPrice"] = g["price"]
+                g.update(price=best["price"], store=best["shop"], url=best["url"],
+                         disc=max(0, round(100 * (1 - best["price"] / g["orig"]))) if g["orig"] else best["cut"])
+    print("Muiden kauppojen hinnat lisätty peleille:", n)
 
 
 def steam_img(appid):
@@ -105,6 +168,13 @@ def main():
         print("Steam-tarjouksia:", len(games))
     except Exception as e:
         errors.append(f"Steam: {e}"); games = prev["games"]
+    else:
+        try:
+            add_itad(games)
+        except Exception as e:
+            print("IsThereAnyDeal-haku epäonnistui, jatketaan Steamin hinnoilla:", e)
+    for g in games:
+        g["slug"] = slugify(g["title"], g["id"])
     try:
         free = fetch_epic_free()
         print("Epicin ilmaispelejä:", len(free))
@@ -112,7 +182,7 @@ def main():
         errors.append(f"Epic: {e}"); free = prev["free"]
 
     # Hintahistoria: kirjataan rivi vain kun hinta on uusi tai muuttunut
-    old = {(g["store"], g["id"]): g["price"] for g in prev["games"]}
+    old = {g["id"]: g["price"] for g in prev["games"]}
     hist = os.path.join(DATA, "history.csv")
     new_file = not os.path.exists(hist)
     ts = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
@@ -121,7 +191,7 @@ def main():
         if new_file:
             w.writerow(["aika", "kauppa", "id", "nimi", "hinta", "normaalihinta", "alennus"])
         for g in games:
-            if old.get((g["store"], g["id"])) != g["price"]:
+            if old.get(g["id"]) != g["price"]:
                 w.writerow([ts, g["store"], g["id"], g["title"], g["price"], g["orig"], g["disc"]])
 
     json.dump({"fetched": ts, "games": games, "free": free}, open(path, "w", encoding="utf-8"), ensure_ascii=False, indent=1)

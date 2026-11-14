@@ -6,9 +6,11 @@ Suomenkielinen pelitarjoussivu, joka päivittyy itsestään. GitHub Actions hake
 
 | Polku | Tehtävä |
 |---|---|
-| `scripts/fetch.py` | Hakee Steamin tarjoukset (Suomen hinnat) ja Epicin ilmaispelit |
-| `scripts/build.py` | Rakentaa sivun: `site/template.html` + `data/deals.json` -> `dist/index.html` |
-| `site/template.html` | Sivun ulkoasu ja logiikka |
+| `scripts/fetch.py` | Hakee Steamin tarjoukset (Suomen hinnat), muiden kauppojen hinnat IsThereAnyDealista ja Epicin ilmaispelit |
+| `scripts/build.py` | Rakentaa sivuston `dist/`-kansioon: etusivu, oma sivu jokaiselle pelille, sitemap |
+| `site/template.html` | Etusivun rakenne ja logiikka |
+| `site/game.html` | Pelisivun pohja |
+| `site/style.css` | Yhteiset tyylit |
 | `data/deals.json` | Tämänhetkiset tarjoukset |
 | `data/history.csv` | Hintahistoria, uusi rivi aina kun hinta muuttuu |
 | `.github/workflows/update.yml` | Ajastus, datan tallennus ja julkaisu |
@@ -20,7 +22,7 @@ Suomenkielinen pelitarjoussivu, joka päivittyy itsestään. GitHub Actions hake
 3. **Settings -> Pages -> Source:** valitse **GitHub Actions**.
 4. **Settings -> Actions -> General -> Workflow permissions:** valitse **Read and write permissions**.
 5. **Settings -> Secrets and variables -> Actions -> New repository secret:**
-   - `ITAD_API_KEY` = IsThereAnyDeal-avaimesi (käytetään vaiheessa 2)
+   - `ITAD_API_KEY` = IsThereAnyDeal-avaimesi (muiden kauppojen hinnat)
    - `DISCORD_WEBHOOK` = Discord-webhookin osoite (valinnainen, virheilmoituksia varten)
 6. **Actions -> Paivita hinnat ja julkaise -> Run workflow.**
 
