@@ -1,0 +1,60 @@
+name: Paivita hinnat ja julkaise
+
+on:
+  schedule:
+    - cron: "17 4,10,16,22 * * *"   # 4 kertaa paivassa (UTC)
+  workflow_dispatch:                 # voi ajaa myos kasin Actions-valilehdelta
+  push:
+    branches: [main]
+    paths-ignore: ["data/**"]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: update
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      ITAD_API_KEY: ${{ secrets.ITAD_API_KEY }}
+      DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Hae hinnat
+        run: python scripts/fetch.py
+      - name: Rakenna sivu
+        run: python scripts/build.py
+      - name: Tallenna data repoon
+        run: |
+          git config user.name "pelitarjous-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet || git commit -m "Hintapaivitys $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+      - name: Ilmoita virheesta Discordiin
+        if: failure() && env.DISCORD_WEBHOOK != ''
+        run: |
+          curl -sS -H "Content-Type: application/json" \
+            -d "{\"content\":\"Pelitarjous: hintapaivitys epaonnistui. ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}\"}" \
+            "$DISCORD_WEBHOOK"
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
