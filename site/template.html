@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pelitarjous</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,500;62..125,700;62..125,900&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  /* Single light theme: cool paper, black ink, Finnish shop "tarjous" sticker yellow with red price. Hash-routed views. */
+  --paper:#f2f3f0;
+  --white:#ffffff;
+  --ink:#0f0f0f;
+  --muted:#5d625c;
+  --line:#d9dbd5;
+  --sticker:#ffd600;
+  --red:#d90b16;
+  --green:#147a3c;
+  --display:"Archivo","Arial Narrow",sans-serif;
+  --body:"Figtree",system-ui,-apple-system,"Segoe UI",sans-serif;
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--paper);color:var(--ink);font:16px/1.5 var(--body);font-variant-numeric:tabular-nums}
+a{color:inherit}
+.top{background:var(--ink);color:var(--white);position:sticky;top:0;z-index:10}
+.top .in{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.logo{display:flex;align-items:center;gap:10px;text-decoration:none;padding:12px 0;font:900 22px/1 var(--display);font-stretch:85%;letter-spacing:-.01em;text-transform:uppercase}
+.logo span{background:var(--sticker);color:var(--red);padding:4px 7px 3px;transform:rotate(-4deg);display:inline-block;font-stretch:75%}
+nav{display:flex;gap:2px;flex-wrap:wrap}
+nav a{text-decoration:none;font:600 14px/1 var(--body);padding:10px 12px;color:#c9ccc6;border-radius:4px}
+nav a:hover{color:#fff}
+nav a[aria-current="page"]{background:var(--sticker);color:var(--ink)}
+nav a:focus-visible{outline:2px solid var(--sticker);outline-offset:2px}
+.wrap{max-width:1200px;margin:0 auto;padding:32px 20px 56px;display:grid;gap:36px}
+[data-view][hidden]{display:none!important}
+.view{display:grid;gap:36px}
+h1,h2,h3{font-family:var(--display);text-wrap:balance;margin:0}
+.hero{display:grid;grid-template-columns:1.25fr 1fr;gap:32px;align-items:end;border-bottom:3px solid var(--ink);padding-bottom:28px}
+@media (max-width:860px){.hero{grid-template-columns:1fr}}
+.hero h1{font-weight:900;font-stretch:80%;font-size:clamp(42px,7vw,86px);line-height:.9;text-transform:uppercase;letter-spacing:-.01em}
+.hero h1 mark{background:var(--sticker);color:var(--red);padding:0 .12em;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.hero p{font-size:18px;color:var(--muted);max-width:52ch;margin:14px 0 0}
+.facts{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.fact{background:var(--white);border:2px solid var(--ink);padding:14px}
+.fact b{display:block;font:900 34px/1 var(--display);font-stretch:80%}
+.fact span{font-size:13px;color:var(--muted)}
+.sechead{display:flex;justify-content:space-between;align-items:end;gap:16px;flex-wrap:wrap}
+.sechead h2{font-weight:900;font-stretch:85%;font-size:30px;text-transform:uppercase;letter-spacing:-.01em}
+.sechead a{font-weight:600}
+.sechead p{margin:4px 0 0;color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:16px}
+.card{position:relative;background:var(--white);border:2px solid var(--ink);display:grid;grid-template-rows:auto 1fr;text-decoration:none;transition:transform .12s}
+.card:hover{transform:translate(-2px,-2px);box-shadow:4px 4px 0 var(--ink)}
+.card:focus-visible{outline:3px solid var(--red);outline-offset:2px}
+@media (prefers-reduced-motion:reduce){.card{transition:none}.card:hover{transform:none}}
+.thumb{aspect-ratio:231/87;background:#1c1d1b;display:grid;place-items:center;overflow:hidden;border-bottom:2px solid var(--ink)}
+.thumb img{width:100%;height:100%;object-fit:cover;display:block}
+.thumb .ph{color:#e6e6e1;font:700 15px/1.2 var(--display);padding:10px;text-align:center}
+.body{padding:12px 14px 14px;display:grid;gap:8px;align-content:start}
+.title{font:700 16px/1.25 var(--body);overflow-wrap:anywhere}
+.meta{display:flex;gap:6px;flex-wrap:wrap;font-size:12px;color:var(--muted)}
+.pill{border:1px solid var(--line);padding:2px 7px;border-radius:999px;white-space:nowrap}
+.pill.good{border-color:var(--green);color:var(--green)}
+.pricerow{display:flex;align-items:end;justify-content:space-between;gap:8px;margin-top:2px}
+.was{color:var(--muted);text-decoration:line-through;font-size:14px}
+.price{font:900 26px/1 var(--display);font-stretch:80%;color:var(--red)}
+.sticker{position:absolute;top:-10px;right:-8px;background:var(--sticker);color:var(--red);border:2px solid var(--ink);font:900 20px/1 var(--display);font-stretch:75%;padding:7px 8px 6px;transform:rotate(6deg);z-index:2}
+.free .sticker{background:var(--red);color:var(--white)}
+.when{font-weight:600;font-size:14px}
+.when.now{color:var(--green)}
+.filters{background:var(--white);border:2px solid var(--ink);padding:16px;display:grid;grid-template-columns:2fr repeat(4,1fr);gap:12px;align-items:end}
+@media (max-width:860px){.filters{grid-template-columns:1fr 1fr}}
+@media (max-width:460px){.filters{grid-template-columns:1fr}}
+label{display:grid;gap:5px;font-size:13px;font-weight:600}
+input,select{font:500 15px/1.2 var(--body);color:var(--ink);background:var(--paper);border:1.5px solid var(--ink);border-radius:4px;padding:9px 10px;width:100%}
+input:focus,select:focus{outline:3px solid var(--sticker);outline-offset:0}
+.count{color:var(--muted);margin:0}
+.subs{display:grid;gap:20px}
+.svc{background:var(--white);border:2px solid var(--ink)}
+.svc header{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:14px 16px;border-bottom:2px solid var(--ink);flex-wrap:wrap}
+.svc h3{font-weight:900;font-stretch:85%;font-size:24px;text-transform:uppercase}
+.svc header span{font-size:13px;color:var(--muted)}
+.tw{overflow-x:auto}
+table{width:100%;border-collapse:collapse}
+th,td{padding:10px 16px;text-align:left;border-bottom:1px solid var(--line);font-size:15px;vertical-align:top}
+th{font:700 12px/1.2 var(--body);text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+td.n{text-align:right;white-space:nowrap;font-weight:600}
+th.n{text-align:right}
+td.best{color:var(--red);font-weight:800}
+tr:last-child td{border-bottom:0}
+.note{font-size:13px;color:var(--muted);max-width:90ch;margin:0}
+.callout{background:var(--sticker);border:2px solid var(--ink);padding:16px 18px;display:grid;gap:6px;max-width:80ch}
+.callout b{font:900 20px/1.1 var(--display);font-stretch:85%;text-transform:uppercase}
+.prose{max-width:68ch;display:grid;gap:14px}
+.prose h2{font-weight:900;font-stretch:85%;font-size:28px;text-transform:uppercase}
+.prose p{margin:0}
+footer{border-top:2px solid var(--ink);padding-top:16px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+</style>
+</head>
+<body>
+<div class="top"><div class="in">
+  <a class="logo" href="#etusivu" aria-label="Pelitarjous etusivu">Peli<span>tarjous</span></a>
+  <nav aria-label="Päävalikko">
+    <a href="#alennukset" data-nav="alennukset">Alennukset</a>
+    <a href="#ilmaiset" data-nav="ilmaiset">Ilmaiset pelit</a>
+    <a href="#tilaukset" data-nav="tilaukset">Tilaukset</a>
+    <a href="#tietoa" data-nav="tietoa">Tietoa</a>
+  </nav>
+</div></div>
+
+<main class="wrap">
+
+<section class="view" data-view="etusivu">
+  <div class="hero">
+    <div>
+      <h1>Pelit halvemmalla. <mark>Suomen hinnoilla.</mark></h1>
+      <p>Päivän parhaat pelialennukset euroina, ilmaiseksi jaettavat pelit ja tilauspalveluiden hinnat yhdellä sivulla.</p>
+    </div>
+    <div class="facts" id="facts"></div>
+  </div>
+
+  <section style="display:grid;gap:18px">
+    <div class="sechead"><div><h2>Ilmaiseksi nyt</h2><p>Lunasta ennen kuin tarjous päättyy, peli jää omaksi.</p></div><a href="#ilmaiset">Kaikki ilmaiset</a></div>
+    <div class="grid free" id="homeFree"></div>
+  </section>
+
+  <section style="display:grid;gap:18px">
+    <div class="sechead"><div><h2>Päivän parhaat</h2><p>Isot alennukset peleistä, joilla on hyvät arviot.</p></div><a href="#alennukset">Kaikki alennukset</a></div>
+    <div class="grid" id="homeDeals"></div>
+  </section>
+</section>
+
+<section class="view" data-view="alennukset" hidden>
+  <div class="sechead"><div><h2 style="font-size:44px">Alennukset</h2><p>Steamin alennukset Suomen hinnoilla.</p></div></div>
+  <div class="filters" role="search">
+    <label for="q">Hae peliä<input id="q" type="search" placeholder="esim. Witcher"></label>
+    <label for="minDisc">Alennus vähintään<select id="minDisc"><option value="0">Kaikki</option><option value="50">50 %</option><option value="75" selected>75 %</option><option value="90">90 %</option></select></label>
+    <label for="maxPrice">Hinta enintään<select id="maxPrice"><option value="999">Kaikki</option><option value="5">5 €</option><option value="10">10 €</option><option value="20">20 €</option></select></label>
+    <label for="minRating">Arviot<select id="minRating"><option value="0">Kaikki</option><option value="80" selected>Erittäin myönteiset (80 %+)</option><option value="90">Ylivoimaisen myönteiset (90 %+)</option></select></label>
+    <label for="sort">Järjestys<select id="sort"><option value="score">Paras diili</option><option value="disc">Suurin alennus</option><option value="price">Halvin</option><option value="rating">Paras arvio</option></select></label>
+  </div>
+  <p class="count" id="count"></p>
+  <div class="grid" id="allDeals"></div>
+</section>
+
+<section class="view" data-view="ilmaiset" hidden>
+  <div class="sechead"><div><h2 style="font-size:44px">Ilmaiset pelit</h2><p>Epic Games Store jakaa joka viikko pelejä ilmaiseksi. Kun lunastat pelin tarjousaikana, se jää pysyvästi omaksesi.</p></div></div>
+  <div class="grid free" id="allFree"></div>
+</section>
+
+<section class="view" data-view="tilaukset" hidden>
+  <div class="sechead"><div><h2 style="font-size:44px">Tilaukset</h2><p>Pelitilausten hinnat Suomessa rinnakkain. Vuositilaus on lähes aina edullisin.</p></div></div>
+  <div class="subs" id="subs"></div>
+  <p class="note">Hinnat tarkistettu 15.11.2026. Palvelut muuttavat hintojaan usein, joten tarkista ajantasainen hinta palvelusta ennen tilaamista.</p>
+</section>
+
+<section class="view" data-view="tietoa" hidden>
+  <div class="prose">
+    <h2>Miten sivu toimii</h2>
+    <p>Haemme hinnat suoraan kaupoista Suomen hinnoilla ja euroina. Alennuslistalla näkyvät pelit, joiden hinta on juuri nyt alennettu. Arviot tulevat Steamin käyttäjäarvioista ja Metacriticista.</p>
+    <p>"Paras diili" painottaa alennuksen suuruutta ja pelin arvioita, jotta listan kärjessä ei ole pelkkiä halpoja huonoja pelejä.</p>
+    <h2>Mistä sivu saa tulonsa</h2>
+    <p>Osa linkeistä on kumppanilinkkejä. Jos ostat niiden kautta, saatamme saada pienen provision. Se ei nosta hintaa sinulle, eikä se vaikuta siihen, mitkä tarjoukset nostamme esiin.</p>
+    <div class="callout"><b>Kehitysversio</b><span>Hinnat päivittyvät automaattisesti neljä kertaa päivässä. Lisää kauppoja (GOG, Humble, Fanatical) ja ohjelmistot tulevat seuraavaksi.</span></div>
+  </div>
+</section>
+
+<footer><span class="note">Pelitarjous · Hinnat päivitetty <span id="upd"></span>. Hinnat voivat muuttua, tarkista lopullinen hinta kaupasta.</span><a class="note" href="#tietoa">Mistä sivu saa tulonsa</a></footer>
+</main>
+
+<script id="data" type="application/json">__DATA__</script>
+<script>
+(function(){
+  const D=JSON.parse(document.getElementById('data').textContent);
+  const $=id=>document.getElementById(id);
+  const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+  const eur=v=>v.toLocaleString('fi-FI',{minimumFractionDigits:2,maximumFractionDigits:2})+' €';
+  const RT={'Overwhelmingly Positive':'Ylivoimaisen myönteinen','Very Positive':'Erittäin myönteinen','Positive':'Myönteinen','Mostly Positive':'Enimmäkseen myönteinen','Mixed':'Ristiriitainen','Mostly Negative':'Enimmäkseen kielteinen','Negative':'Kielteinen'};
+  const G=D.games;
+  // Deal score: discount weighted by quality (Steam rating or Metacritic), so cheap but bad games don't top the list
+  G.forEach(g=>{const q=g.ratingPct||g.mc||60; const conf=Math.min(1,Math.log10((g.ratingCount||50)+1)/4); g.q=q; g.score=g.disc*(0.4+0.6*(q/100)*(0.6+0.4*conf));});
+
+  function card(g){
+    const meta=[];
+    if(g.ratingPct) meta.push(`<span class="pill${g.ratingPct>=80?' good':''}">${esc(RT[g.rating]||g.rating||'')} ${g.ratingPct} %</span>`);
+    if(g.mc) meta.push(`<span class="pill">Metacritic ${g.mc}</span>`);
+    meta.push(`<span class="pill">${esc(g.store)}</span>`);
+    return `<a class="card" href="${esc(g.url)}" rel="noopener"><span class="sticker">-${g.disc}%</span>
+      <div class="thumb">${g.img?`<img src="${esc(g.img)}" alt="" loading="lazy">`:`<span class="ph">${esc(g.title)}</span>`}</div>
+      <div class="body"><div class="title">${esc(g.title)}</div><div class="meta">${meta.join('')}</div>
+      <div class="pricerow"><span class="was">${eur(g.orig)}</span><span class="price">${eur(g.price)}</span></div></div></a>`;
+  }
+  const fmtDate=s=>{const d=new Date(s);return d.toLocaleDateString('fi-FI',{day:'numeric',month:'numeric'})+' klo '+d.toLocaleTimeString('fi-FI',{hour:'2-digit',minute:'2-digit'});};
+  function freeCard(f){
+    return `<a class="card" href="${esc(f.url)}" rel="noopener"><span class="sticker">${f.now?'ILMAINEN':'TULOSSA'}</span>
+      <div class="thumb" style="aspect-ratio:16/9">${f.img?`<img src="${esc(f.img)}" alt="" loading="lazy">`:`<span class="ph">${esc(f.title)}</span>`}</div>
+      <div class="body"><div class="title">${esc(f.title)}</div><div class="meta"><span class="pill">Epic Games Store</span>${f.orig?`<span class="pill">Normaalisti ${eur(f.orig)}</span>`:''}</div>
+      <div class="when ${f.now?'now':''}">${f.now?'Ilmainen '+fmtDate(f.end)+' asti':'Ilmainen '+fmtDate(f.start)+' alkaen'}</div></div></a>`;
+  }
+
+  const free=[...D.free].sort((a,b)=>(b.now-a.now)||a.start.localeCompare(b.start));
+  $('homeFree').innerHTML=free.map(freeCard).join('');
+  $('allFree').innerHTML=free.map(freeCard).join('');
+  const best=G.filter(g=>g.q>=80).sort((a,b)=>b.score-a.score);
+  $('homeDeals').innerHTML=best.slice(0,8).map(card).join('');
+  $('facts').innerHTML=`<div class="fact"><b>${G.length}</b><span>peliä alennuksessa</span></div>
+    <div class="fact"><b>${G.filter(g=>g.disc>=75).length}</b><span>vähintään -75 %</span></div>
+    <div class="fact"><b>${free.filter(f=>f.now).length}</b><span>ilmaista peliä nyt</span></div>`;
+
+  function renderList(){
+    const q=$('q').value.trim().toLowerCase(), md=+$('minDisc').value, mp=+$('maxPrice').value, mr=+$('minRating').value, s=$('sort').value;
+    let r=G.filter(g=>g.disc>=md&&g.price<=mp&&(mr===0||g.q>=mr)&&(!q||g.title.toLowerCase().includes(q)));
+    const by={score:(a,b)=>b.score-a.score,disc:(a,b)=>b.disc-a.disc,price:(a,b)=>a.price-b.price,rating:(a,b)=>b.q-a.q}[s];
+    r.sort(by);
+    $('allDeals').innerHTML=r.map(card).join('');
+    $('count').textContent=r.length?`${r.length} peliä`:'Ei pelejä näillä rajauksilla. Kokeile väljempiä ehtoja.';
+  }
+  ['q','minDisc','maxPrice','minRating','sort'].forEach(id=>$(id).addEventListener('input',renderList));
+  renderList();
+
+  // Subscriptions (manually checked prices, Finland, 15.11.2026)
+  const SUBS=[
+    {name:'Xbox Game Pass',note:'Hinnat Microsoftin huhtikuun 2026 muutoksen jälkeen',cols:['Kuukausi'],rows:[
+      ['Essential','Online-moninpeli, 50+ peliä',[8.99]],['Premium','200+ peliä, uudet Xbox-pelit vuoden sisällä',[12.99]],
+      ['PC Game Pass','PC-pelikirjasto, Xboxin omat pelit julkaisupäivänä',[12.99]],['Ultimate','Kaikki edellä + EA Play, 400+ peliä',[20.99]]]},
+    {name:'PlayStation Plus',note:'Suomen hinnat',cols:['Kuukausi','Vuosi'],rows:[
+      ['Essential','Online-moninpeli, kuukauden pelit',[9.95,71.95]],['Extra','Lisäksi 400+ pelin kirjasto',[null,125.95]],
+      ['Premium','Lisäksi klassikot, pelikokeilut, pilvipelaaminen',[null,151.95]]]},
+    {name:'Nintendo Switch Online',note:'Suomen hinnat',cols:['Kuukausi','Vuosi'],rows:[
+      ['Perusjäsenyys','Online-moninpeli, NES- ja SNES-klassikot',[3.99,19.99]],['Perhejäsenyys','Enintään 8 käyttäjää',[null,34.99]],
+      ['+ Expansion Pack','Lisäksi N64-, Mega Drive- ja GameCube-pelit, DLC:t',[null,39.99]]]}
+  ];
+  $('subs').innerHTML=SUBS.map(s=>{
+    const mins=s.cols.map((_,c)=>Math.min(...s.rows.map(r=>r[2][c]??Infinity)));
+    return `<article class="svc"><header><h3>${s.name}</h3><span>${s.note}</span></header><div class="tw"><table>
+      <thead><tr><th>Taso</th><th>Sisältö</th>${s.cols.map(c=>`<th class="n">${c}</th>`).join('')}${s.cols.length>1?'<th class="n">Kuukaudessa vuositilauksella</th>':''}</tr></thead><tbody>
+      ${s.rows.map(r=>`<tr><td><b>${r[0]}</b></td><td>${r[1]}</td>${s.cols.map((_,c)=>`<td class="n">${r[2][c]!=null?eur(r[2][c]):'–'}</td>`).join('')}${s.cols.length>1?`<td class="n best">${eur(r[2][1]/12)}</td>`:''}</tr>`).join('')}
+      </tbody></table></div></article>`;}).join('');
+
+  const d=new Date(D.fetched); $('upd').textContent=d.toLocaleDateString('fi-FI')+' klo '+d.toLocaleTimeString('fi-FI',{hour:'2-digit',minute:'2-digit'});
+
+  const views=[...document.querySelectorAll('[data-view]')];
+  function route(){
+    let v=location.hash.slice(1)||'etusivu'; if(!views.some(x=>x.dataset.view===v)) v='etusivu';
+    views.forEach(x=>x.hidden=x.dataset.view!==v);
+    document.querySelectorAll('[data-nav]').forEach(a=>a.dataset.nav===v?a.setAttribute('aria-current','page'):a.removeAttribute('aria-current'));
+    window.scrollTo(0,0);
+  }
+  addEventListener('hashchange',route); route();
+})();
+</script>
+</body>
+</html>
