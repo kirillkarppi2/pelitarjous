@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-16T02:07:13Z",
+ "fetched": "2026-11-16T12:45:10Z",
  "games": [
   {
    "id": "40700",
@@ -10,7 +10,7 @@
    "mc": 85,
    "rating": "Very Positive",
    "ratingPct": 94,
-   "ratingCount": 5194,
+   "ratingCount": 5197,
    "store": "Steam",
    "url": "https://store.steampowered.com/app/40700/",
    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/40700/header.jpg",
@@ -42,7 +42,7 @@
    "mc": 81,
    "rating": "Very Positive",
    "ratingPct": 90,
-   "ratingCount": 3344,
+   "ratingCount": 3349,
    "store": "Steam",
    "url": "https://store.steampowered.com/app/773370/",
    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/773370/header.jpg",
@@ -74,7 +74,7 @@
    "mc": 71,
    "rating": "Mostly Positive",
    "ratingPct": 74,
-   "ratingCount": 796,
+   "ratingCount": 798,
    "store": "Steam",
    "url": "https://store.steampowered.com/app/2132890/",
    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2132890/header.jpg",
@@ -89,8 +89,8 @@
     },
     {
      "shop": "GamesPlanet US",
-     "price": 9.06,
-     "regular": 9.06,
+     "price": 9.08,
+     "regular": 9.08,
      "cut": 0,
      "url": "https://itad.link/019a7417-e0bd-7344-ba5d-ee5bf6127d40/?app=bc8ok8"
     },
@@ -131,8 +131,8 @@
     },
     {
      "shop": "GamesPlanet UK",
-     "price": 10.78,
-     "regular": 10.78,
+     "price": 10.77,
+     "regular": 10.77,
      "cut": 0,
      "url": "https://itad.link/019a7417-d17a-7332-9218-d8e037a901e9/?app=bc8ok8"
     }
@@ -148,7 +148,7 @@
    "mc": 81,
    "rating": "Very Positive",
    "ratingPct": 89,
-   "ratingCount": 26889,
+   "ratingCount": 26890,
    "store": "Steam",
    "url": "https://store.steampowered.com/app/418460/",
    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/418460/header.jpg",
@@ -184,15 +184,15 @@
     },
     {
      "shop": "GamesPlanet US",
-     "price": 19.27,
-     "regular": 22.67,
+     "price": 19.3,
+     "regular": 22.71,
      "cut": 15,
      "url": "https://itad.link/018d9386-bb37-7157-bb62-dd723391f7b0/?app=bc8ok8"
     },
     {
      "shop": "GamesPlanet UK",
-     "price": 19.35,
-     "regular": 22.76,
+     "price": 19.34,
+     "regular": 22.75,
      "cut": 15,
      "url": "https://itad.link/018d9386-bb37-7157-bb62-dd723160d312/?app=bc8ok8"
     },
@@ -299,7 +299,7 @@
    "mc": 82,
    "rating": "Overwhelmingly Positive",
    "ratingPct": 95,
-   "ratingCount": 18057,
+   "ratingCount": 18060,
    "store": "Steam",
    "url": "https://store.steampowered.com/app/413410/",
    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413410/header.jpg",
@@ -444,31 +444,59 @@
   {
    "id": "1430680",
    "title": "Clash - Artifacts of Chaos",
-   "price": 2.71,
+   "price": 2.3,
    "orig": 29.99,
-   "disc": 91,
+   "disc": 92,
    "mc": 69,
    "rating": "Very Positive",
    "ratingPct": 90,
-   "ratingCount": 1422,
-   "store": "WinGameStore",
-   "url": "https://itad.link/018d9386-3e81-72ce-8ea4-a2149e68917a/?app=bc8ok8",
+   "ratingCount": 1421,
+   "store": "GamesPlanet US",
+   "url": "https://itad.link/018d9386-3e80-729c-88c5-c4fd648e70b3/?app=bc8ok8",
    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1430680/header.jpg",
    "low": 1.99,
    "shops": [
     {
-     "shop": "WinGameStore",
-     "price": 2.71,
-     "regular": 27.21,
-     "cut": 90,
-     "url": "https://itad.link/018d9386-3e81-72ce-8ea4-a2149e68917a/?app=bc8ok8"
+     "shop": "GamesPlanet US",
+     "price": 2.3,
+     "regular": 27.25,
+     "cut": 92,
+     "url": "https://itad.link/018d9386-3e80-729c-88c5-c4fd648e70b3/?app=bc8ok8"
+    },
+    {
+     "shop": "GamesPlanet FR",
+     "price": 2.53,
+     "regular": 29.99,
+     "cut": 92,
+     "url": "https://itad.link/018d9386-3e80-729c-88c5-c4fd692654f5/?app=bc8ok8"
+    },
+    {
+     "shop": "GamesPlanet DE",
+     "price": 2.53,
+     "regular": 29.99,
+     "cut": 92,
+     "url": "https://itad.link/018d9386-3e80-729c-88c5-c4fd69c33bc6/?app=bc8ok8"
     },
     {
      "shop": "Playsum",
-     "price": 2.82,
+     "price": 2.53,
      "regular": 29.99,
-     "cut": 91,
+     "cut": 92,
      "url": "https://itad.link/019fd44d-e8be-734a-9d30-685189a556a5/?app=bc8ok8"
+    },
+    {
+     "shop": "GamesPlanet UK",
+     "price": 2.54,
+     "regular": 29.94,
+     "cut": 92,
+     "url": "https://itad.link/018d9386-3e80-729c-88c5-c4fd68df6df0/?app=bc8ok8"
+    },
+    {
+     "shop": "WinGameStore",
+     "price": 2.72,
+     "regular": 27.25,
+     "cut": 90,
+     "url": "https://itad.link/018d9386-3e81-72ce-8ea4-a2149e68917a/?app=bc8ok8"
     },
     {
      "shop": "GOG",
@@ -490,34 +518,6 @@
      "regular": 19.99,
      "cut": 0,
      "url": "https://itad.link/018d9386-3e80-729c-88c5-c4fd64031bfb/?app=bc8ok8"
-    },
-    {
-     "shop": "GamesPlanet US",
-     "price": 24.49,
-     "regular": 27.21,
-     "cut": 10,
-     "url": "https://itad.link/018d9386-3e80-729c-88c5-c4fd648e70b3/?app=bc8ok8"
-    },
-    {
-     "shop": "GamesPlanet UK",
-     "price": 26.96,
-     "regular": 29.96,
-     "cut": 10,
-     "url": "https://itad.link/018d9386-3e80-729c-88c5-c4fd68df6df0/?app=bc8ok8"
-    },
-    {
-     "shop": "GamesPlanet DE",
-     "price": 26.99,
-     "regular": 29.99,
-     "cut": 10,
-     "url": "https://itad.link/018d9386-3e80-729c-88c5-c4fd69c33bc6/?app=bc8ok8"
-    },
-    {
-     "shop": "GamesPlanet FR",
-     "price": 26.99,
-     "regular": 29.99,
-     "cut": 10,
-     "url": "https://itad.link/018d9386-3e80-729c-88c5-c4fd692654f5/?app=bc8ok8"
     },
     {
      "shop": "GameBillet",
@@ -599,7 +599,7 @@
    "mc": 82,
    "rating": "Overwhelmingly Positive",
    "ratingPct": 95,
-   "ratingCount": 2074,
+   "ratingCount": 2075,
    "store": "Steam",
    "url": "https://store.steampowered.com/app/207690/",
    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/207690/header.jpg",
@@ -684,7 +684,7 @@
    "mc": 76,
    "rating": "Very Positive",
    "ratingPct": 88,
-   "ratingCount": 613,
+   "ratingCount": 614,
    "store": "Steam",
    "url": "https://store.steampowered.com/app/1496590/",
    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1496590/header.jpg",
@@ -692,8 +692,8 @@
    "shops": [
     {
      "shop": "WinGameStore",
-     "price": 23.12,
-     "regular": 27.21,
+     "price": 23.16,
+     "regular": 27.25,
      "cut": 15,
      "url": "https://itad.link/018e863d-54fa-737d-bcfb-92118c30d082/?app=bc8ok8"
     },
@@ -706,15 +706,15 @@
     },
     {
      "shop": "GamesPlanet US",
-     "price": 24.49,
-     "regular": 27.21,
+     "price": 24.53,
+     "regular": 27.25,
      "cut": 10,
      "url": "https://itad.link/018e629e-0066-7241-b9c1-81f237981fcd/?app=bc8ok8"
     },
     {
      "shop": "GamesPlanet UK",
-     "price": 26.96,
-     "regular": 29.96,
+     "price": 26.95,
+     "regular": 29.94,
      "cut": 10,
      "url": "https://itad.link/018e629d-f330-7109-8701-f296b7ba65b2/?app=bc8ok8"
     },
@@ -731,6 +731,13 @@
      "regular": 29.99,
      "cut": 10,
      "url": "https://itad.link/018e62c2-bf0a-73a8-89e0-a0137e01cfd5/?app=bc8ok8"
+    },
+    {
+     "shop": "Fanatical",
+     "price": 27.59,
+     "regular": 29.99,
+     "cut": 8,
+     "url": "https://itad.link/01963a53-6681-7025-830d-c9815fd59e8d/?app=bc8ok8"
     },
     {
      "shop": "GameBillet",
@@ -850,13 +857,6 @@
      "regular": 29.99,
      "cut": 0,
      "url": "https://itad.link/018e62a7-543b-7287-941b-134289700e8d/?app=bc8ok8"
-    },
-    {
-     "shop": "Fanatical",
-     "price": 29.99,
-     "regular": 29.99,
-     "cut": 0,
-     "url": "https://itad.link/01963a53-6681-7025-830d-c9815fd59e8d/?app=bc8ok8"
     }
    ],
    "slug": "tchia-1496590"
@@ -870,7 +870,7 @@
    "mc": 81,
    "rating": "Very Positive",
    "ratingPct": 88,
-   "ratingCount": 1273,
+   "ratingCount": 1274,
    "store": "Steam",
    "url": "https://store.steampowered.com/app/1206060/",
    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1206060/header.jpg",
@@ -923,7 +923,7 @@
    "mc": 79,
    "rating": "Very Positive",
    "ratingPct": 84,
-   "ratingCount": 11423,
+   "ratingCount": 11430,
    "store": "Steam",
    "url": "https://store.steampowered.com/app/1029690/",
    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1029690/header.jpg",
@@ -990,19 +990,12 @@
    "mc": 79,
    "rating": "Very Positive",
    "ratingPct": 88,
-   "ratingCount": 14576,
+   "ratingCount": 14578,
    "store": "Steam",
    "url": "https://store.steampowered.com/app/203140/",
    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/203140/header.jpg",
    "low": 1.47,
    "shops": [
-    {
-     "shop": "GOG",
-     "price": 1.99,
-     "regular": 19.99,
-     "cut": 90,
-     "url": "https://itad.link/018d9386-7588-71e7-969c-b18750f81dbf/?app=bc8ok8"
-    },
     {
      "shop": "Steam",
      "price": 1.99,
@@ -1023,6 +1016,13 @@
      "regular": 19.99,
      "cut": 0,
      "url": "https://itad.link/018d9386-7588-71e7-969c-b18752752e5e/?app=bc8ok8"
+    },
+    {
+     "shop": "GOG",
+     "price": 19.99,
+     "regular": 19.99,
+     "cut": 0,
+     "url": "https://itad.link/018d9386-7588-71e7-969c-b18750f81dbf/?app=bc8ok8"
     }
    ],
    "slug": "hitman-absolution-203140"
@@ -1072,8 +1072,8 @@
     },
     {
      "shop": "GamesPlanet US",
-     "price": 8.16,
-     "regular": 9.06,
+     "price": 8.17,
+     "regular": 9.08,
      "cut": 10,
      "url": "https://itad.link/018d9386-cff6-7102-9205-986334a22956/?app=bc8ok8"
     },
@@ -1093,8 +1093,8 @@
     },
     {
      "shop": "GamesPlanet UK",
-     "price": 9.7,
-     "regular": 10.78,
+     "price": 9.69,
+     "regular": 10.77,
      "cut": 10,
      "url": "https://itad.link/018d9386-cff6-7102-9205-9863312758db/?app=bc8ok8"
     },
@@ -1143,7 +1143,7 @@
   {
    "id": "3900",
    "title": "Sid Meier's Civilization IV",
-   "price": 2.52,
+   "price": 2.53,
    "orig": 19.99,
    "disc": 87,
    "mc": 94,
@@ -1157,8 +1157,8 @@
    "shops": [
     {
      "shop": "WinGameStore",
-     "price": 2.52,
-     "regular": 18.13,
+     "price": 2.53,
+     "regular": 18.17,
      "cut": 86,
      "url": "https://itad.link/0194669f-3546-7342-8763-a3b1f8d5bc88/?app=bc8ok8"
     },
@@ -1206,22 +1206,22 @@
     },
     {
      "shop": "GamesPlanet UK",
-     "price": 11.98,
-     "regular": 11.98,
+     "price": 11.97,
+     "regular": 11.97,
      "cut": 0,
      "url": "https://itad.link/018d9386-3de1-73e7-bf04-974b2881b78e/?app=bc8ok8"
     },
     {
      "shop": "MacGameStore",
-     "price": 18.1,
-     "regular": 18.1,
+     "price": 18.13,
+     "regular": 18.13,
      "cut": 0,
      "url": "https://itad.link/018d9386-c6e5-73c2-a661-23fd9df12912/?app=bc8ok8"
     },
     {
      "shop": "GamesPlanet US",
-     "price": 18.13,
-     "regular": 18.13,
+     "price": 18.17,
+     "regular": 18.17,
      "cut": 0,
      "url": "https://itad.link/018d9386-3de1-73e7-bf04-974b2976b790/?app=bc8ok8"
     },
@@ -1312,13 +1312,6 @@
      "url": "https://itad.link/018d9386-b45a-71f7-af5d-713463f8afa2/?app=bc8ok8"
     },
     {
-     "shop": "GOG",
-     "price": 6.89,
-     "regular": 22.99,
-     "cut": 70,
-     "url": "https://itad.link/018d9386-b45a-71f7-af5d-713462d9084d/?app=bc8ok8"
-    },
-    {
      "shop": "Fanatical",
      "price": 22.3,
      "regular": 22.99,
@@ -1331,6 +1324,13 @@
      "regular": 22.99,
      "cut": 0,
      "url": "https://itad.link/01a0a5a3-7b3a-7396-ba92-c7b5167acb39/?app=bc8ok8"
+    },
+    {
+     "shop": "GOG",
+     "price": 22.99,
+     "regular": 22.99,
+     "cut": 0,
+     "url": "https://itad.link/018d9386-b45a-71f7-af5d-713462d9084d/?app=bc8ok8"
     }
    ],
    "slug": "quern-undying-thoughts-512790"
@@ -1376,7 +1376,7 @@
    "mc": 80,
    "rating": "Very Positive",
    "ratingPct": 94,
-   "ratingCount": 1628,
+   "ratingCount": 1629,
    "store": "Steam",
    "url": "https://store.steampowered.com/app/421120/",
    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/421120/header.jpg",
@@ -1422,7 +1422,7 @@
    "mc": 78,
    "rating": "Very Positive",
    "ratingPct": 91,
-   "ratingCount": 15957,
+   "ratingCount": 15959,
    "store": "Fanatical",
    "url": "https://itad.link/018d9386-cb48-7029-87d4-8f16da2b9fdc/?app=bc8ok8",
    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/312660/header.jpg",
@@ -1491,7 +1491,7 @@
    "mc": 75,
    "rating": "Very Positive",
    "ratingPct": 81,
-   "ratingCount": 3146,
+   "ratingCount": 3147,
    "store": "Fanatical",
    "url": "https://itad.link/018d9386-2f99-7031-891d-3e4468062428/?app=bc8ok8",
    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/475550/header.jpg",
@@ -1503,6 +1503,13 @@
      "regular": 13.79,
      "cut": 92,
      "url": "https://itad.link/018d9386-2f99-7031-891d-3e4468062428/?app=bc8ok8"
+    },
+    {
+     "shop": "Dreamgame",
+     "price": 1.1,
+     "regular": 13.79,
+     "cut": 92,
+     "url": "https://itad.link/019247c2-cf4b-71e0-91bd-574950961772/?app=bc8ok8"
     },
     {
      "shop": "Playsum",
@@ -1541,8 +1548,8 @@
     },
     {
      "shop": "GamesPlanet US",
-     "price": 8.16,
-     "regular": 9.06,
+     "price": 8.17,
+     "regular": 9.08,
      "cut": 10,
      "url": "https://itad.link/018d9386-2f99-7031-891d-3e446c1229d3/?app=bc8ok8"
     },
@@ -1569,15 +1576,15 @@
     },
     {
      "shop": "WinGameStore",
-     "price": 9.06,
-     "regular": 9.06,
+     "price": 9.08,
+     "regular": 9.08,
      "cut": 0,
      "url": "https://itad.link/018d9386-2f99-7031-891d-3e44763002b8/?app=bc8ok8"
     },
     {
      "shop": "MacGameStore",
-     "price": 9.06,
-     "regular": 9.06,
+     "price": 9.08,
+     "regular": 9.08,
      "cut": 0,
      "url": "https://itad.link/018d9386-2f99-7031-891d-3e4472ffcdd2/?app=bc8ok8"
     },
@@ -1636,13 +1643,6 @@
      "regular": 13.79,
      "cut": 0,
      "url": "https://itad.link/0192c04b-a3c3-71da-8980-bf208dea2450/?app=bc8ok8"
-    },
-    {
-     "shop": "Dreamgame",
-     "price": 13.79,
-     "regular": 13.79,
-     "cut": 0,
-     "url": "https://itad.link/019247c2-cf4b-71e0-91bd-574950961772/?app=bc8ok8"
     }
    ],
    "steamPrice": 1.37,
@@ -1682,7 +1682,7 @@
    "mc": 72,
    "rating": "Mostly Positive",
    "ratingPct": 76,
-   "ratingCount": 1960,
+   "ratingCount": 1961,
    "store": "Steam",
    "url": "https://store.steampowered.com/app/312780/",
    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/312780/header.jpg",
@@ -1722,15 +1722,15 @@
     },
     {
      "shop": "GamesPlanet US",
-     "price": 20.4,
-     "regular": 22.67,
+     "price": 20.44,
+     "regular": 22.71,
      "cut": 10,
      "url": "https://itad.link/018d9386-89c0-72ab-a901-6475ab45b582/?app=bc8ok8"
     },
     {
      "shop": "GamesPlanet UK",
-     "price": 21.57,
-     "regular": 23.96,
+     "price": 21.56,
+     "regular": 23.95,
      "cut": 10,
      "url": "https://itad.link/018d9386-89c0-72ab-a901-6475aa8af617/?app=bc8ok8"
     },
@@ -1757,15 +1757,15 @@
     },
     {
      "shop": "Gamesporium",
-     "price": 22.66,
-     "regular": 22.66,
+     "price": 22.69,
+     "regular": 22.69,
      "cut": 0,
      "url": "https://itad.link/01a12125-2ec1-70be-9d4e-96b7df70d032/?app=bc8ok8"
     },
     {
      "shop": "WinGameStore",
-     "price": 22.67,
-     "regular": 22.67,
+     "price": 22.71,
+     "regular": 22.71,
      "cut": 0,
      "url": "https://itad.link/018d9386-89c0-72ab-a901-6475ac7a5521/?app=bc8ok8"
     },
@@ -1810,13 +1810,13 @@
   {
    "id": "49520",
    "title": "Borderlands 2",
-   "price": 2.62,
+   "price": 2.63,
    "orig": 29.99,
    "disc": 91,
    "mc": 89,
    "rating": "Very Positive",
    "ratingPct": 90,
-   "ratingCount": 123307,
+   "ratingCount": 123318,
    "store": "WinGameStore",
    "url": "https://itad.link/018d9386-3450-713f-a5c1-1fab91ac3a78/?app=bc8ok8",
    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/49520/header.jpg",
@@ -1824,8 +1824,8 @@
    "shops": [
     {
      "shop": "WinGameStore",
-     "price": 2.62,
-     "regular": 18.13,
+     "price": 2.63,
+     "regular": 18.17,
      "cut": 86,
      "url": "https://itad.link/018d9386-3450-713f-a5c1-1fab91ac3a78/?app=bc8ok8"
     },
@@ -1844,6 +1844,13 @@
      "url": "https://itad.link/019a4583-df2a-70c2-8148-fd406e623cc7/?app=bc8ok8"
     },
     {
+     "shop": "Dreamgame",
+     "price": 7.5,
+     "regular": 29.99,
+     "cut": 75,
+     "url": "https://itad.link/0193bac8-739f-7198-be9b-e9a7cef39a64/?app=bc8ok8"
+    },
+    {
      "shop": "Playsum",
      "price": 15.93,
      "regular": 63.72,
@@ -1852,36 +1859,36 @@
     },
     {
      "shop": "GamesPlanet US",
-     "price": 16.32,
-     "regular": 18.13,
+     "price": 16.35,
+     "regular": 18.17,
      "cut": 10,
      "url": "https://itad.link/018d9386-3450-713f-a5c1-1fab810eccd6/?app=bc8ok8"
     },
     {
      "shop": "GamesPlanet US",
-     "price": 18.13,
-     "regular": 18.13,
+     "price": 18.17,
+     "regular": 18.17,
      "cut": 0,
      "url": "https://itad.link/018d9386-358e-7086-a05e-e0767fd0bdbb/?app=bc8ok8"
     },
     {
      "shop": "MacGameStore",
-     "price": 18.13,
-     "regular": 18.13,
+     "price": 18.17,
+     "regular": 18.17,
      "cut": 0,
      "url": "https://itad.link/018d9386-3450-713f-a5c1-1fab8a40bbe2/?app=bc8ok8"
     },
     {
      "shop": "GamesPlanet UK",
-     "price": 21.57,
-     "regular": 23.96,
+     "price": 21.56,
+     "regular": 23.95,
      "cut": 10,
      "url": "https://itad.link/018d9386-3450-713f-a5c1-1fab7e8bda06/?app=bc8ok8"
     },
     {
      "shop": "GamesPlanet UK",
-     "price": 23.96,
-     "regular": 23.96,
+     "price": 23.95,
+     "regular": 23.95,
      "cut": 0,
      "url": "https://itad.link/018d9386-358e-7086-a05e-e0767c1290e0/?app=bc8ok8"
     },
@@ -1977,13 +1984,6 @@
      "url": "https://itad.link/018d9386-3450-713f-a5c1-1fab97c45e55/?app=bc8ok8"
     },
     {
-     "shop": "Dreamgame",
-     "price": 29.99,
-     "regular": 29.99,
-     "cut": 0,
-     "url": "https://itad.link/0193bac8-739f-7198-be9b-e9a7cef39a64/?app=bc8ok8"
-    },
-    {
      "shop": "AllYouPlay",
      "price": 29.99,
      "regular": 29.99,
@@ -2010,7 +2010,7 @@
    "mc": 76,
    "rating": "Very Positive",
    "ratingPct": 86,
-   "ratingCount": 3654,
+   "ratingCount": 3655,
    "store": "Steam",
    "url": "https://store.steampowered.com/app/501590/",
    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/501590/header.jpg",
@@ -2281,15 +2281,15 @@
     },
     {
      "shop": "GamesPlanet US",
-     "price": 17.23,
-     "regular": 18.13,
+     "price": 17.26,
+     "regular": 18.17,
      "cut": 5,
      "url": "https://itad.link/01a0d433-b671-7015-a87b-e8cdd727a6c3/?app=bc8ok8"
     },
     {
      "shop": "WinGameStore",
-     "price": 17.68,
-     "regular": 18.13,
+     "price": 17.71,
+     "regular": 18.17,
      "cut": 3,
      "url": "https://itad.link/01a0d4c5-af1f-708e-9dda-7abe6f9d3c0e/?app=bc8ok8"
     },
@@ -2309,8 +2309,8 @@
     },
     {
      "shop": "GamesPlanet UK",
-     "price": 19.35,
-     "regular": 20.37,
+     "price": 19.34,
+     "regular": 20.36,
      "cut": 5,
      "url": "https://itad.link/01a0d433-a359-7319-bf87-31063e53e3bf/?app=bc8ok8"
     },
@@ -2362,18 +2362,25 @@
   {
    "id": "207140",
    "title": "SpeedRunners",
-   "price": 2.95,
+   "price": 1.47,
    "orig": 14.79,
-   "disc": 80,
+   "disc": 90,
    "mc": 84,
    "rating": "Very Positive",
    "ratingPct": 94,
-   "ratingCount": 9668,
-   "store": "Steam",
-   "url": "https://store.steampowered.com/app/207140/",
+   "ratingCount": 9669,
+   "store": "Fanatical",
+   "url": "https://itad.link/018d9386-cfd4-73be-8d69-f0e385832bb0/?app=bc8ok8",
    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/207140/header.jpg",
    "low": 1,
    "shops": [
+    {
+     "shop": "Fanatical",
+     "price": 1.47,
+     "regular": 14.79,
+     "cut": 90,
+     "url": "https://itad.link/018d9386-cfd4-73be-8d69-f0e385832bb0/?app=bc8ok8"
+    },
     {
      "shop": "Steam",
      "price": 2.95,
@@ -2397,8 +2404,8 @@
     },
     {
      "shop": "IndieGala Store",
-     "price": 13.59,
-     "regular": 13.59,
+     "price": 13.6,
+     "regular": 13.6,
      "cut": 0,
      "url": "https://itad.link/018d9386-cfd5-717d-8900-99a397a3e56b/?app=bc8ok8"
     },
@@ -2424,6 +2431,7 @@
      "url": "https://itad.link/018d9386-cfd5-717d-8900-99a39ccdc0d0/?app=bc8ok8"
     }
    ],
+   "steamPrice": 2.95,
    "slug": "speedrunners-207140"
   },
   {
@@ -2460,7 +2468,7 @@
    "mc": 87,
    "rating": "Mostly Positive",
    "ratingPct": 74,
-   "ratingCount": 1579,
+   "ratingCount": 1580,
    "store": "Steam",
    "url": "https://store.steampowered.com/app/1619520/",
    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1619520/header.jpg",
@@ -2520,36 +2528,29 @@
      "url": "https://itad.link/018d9386-240f-7100-a0f9-6f99167aaf02/?app=bc8ok8"
     },
     {
-     "shop": "GOG",
-     "price": 2.99,
-     "regular": 14.99,
-     "cut": 80,
-     "url": "https://itad.link/018d9386-240f-7100-a0f9-6f990a9237be/?app=bc8ok8"
-    },
-    {
      "shop": "MacGameStore",
-     "price": 10.88,
-     "regular": 13.6,
+     "price": 10.9,
+     "regular": 13.62,
      "cut": 20,
      "url": "https://itad.link/018d9386-240f-7100-a0f9-6f990e6af96c/?app=bc8ok8"
     },
     {
      "shop": "WinGameStore",
-     "price": 10.88,
-     "regular": 13.6,
+     "price": 10.9,
+     "regular": 13.62,
      "cut": 20,
      "url": "https://itad.link/018d9386-240f-7100-a0f9-6f991292c1df/?app=bc8ok8"
     },
     {
      "shop": "GamesPlanet US",
-     "price": 11.56,
-     "regular": 13.6,
+     "price": 11.58,
+     "regular": 13.62,
      "cut": 15,
      "url": "https://itad.link/018d9386-240f-7100-a0f9-6f990a16a09c/?app=bc8ok8"
     },
     {
      "shop": "GamesPlanet UK",
-     "price": 12.22,
+     "price": 12.21,
      "regular": 14.37,
      "cut": 15,
      "url": "https://itad.link/018d9386-240f-7100-a0f9-6f9908270ef1/?app=bc8ok8"
@@ -2602,6 +2603,13 @@
      "regular": 14.99,
      "cut": 0,
      "url": "https://itad.link/018d9386-240f-7100-a0f9-6f990c92a8cc/?app=bc8ok8"
+    },
+    {
+     "shop": "GOG",
+     "price": 14.99,
+     "regular": 14.99,
+     "cut": 0,
+     "url": "https://itad.link/018d9386-240f-7100-a0f9-6f990a9237be/?app=bc8ok8"
     }
    ],
    "slug": "antihero-505640"
@@ -2615,7 +2623,7 @@
    "mc": 69,
    "rating": "Mostly Positive",
    "ratingPct": 74,
-   "ratingCount": 3131,
+   "ratingCount": 3132,
    "store": "Steam",
    "url": "https://store.steampowered.com/app/238370/",
    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/238370/header.jpg",
@@ -2637,8 +2645,8 @@
     },
     {
      "shop": "GamesPlanet US",
-     "price": 12.24,
-     "regular": 13.6,
+     "price": 12.26,
+     "regular": 13.62,
      "cut": 10,
      "url": "https://itad.link/018d9386-91f5-71b2-a884-9f9eb29dde0a/?app=bc8ok8"
     },
@@ -2658,8 +2666,8 @@
     },
     {
      "shop": "GamesPlanet UK",
-     "price": 13.8,
-     "regular": 15.33,
+     "price": 13.79,
+     "regular": 15.32,
      "cut": 10,
      "url": "https://itad.link/018d9386-91f5-71b2-a884-9f9eb055d0a1/?app=bc8ok8"
     },
@@ -2774,7 +2782,7 @@
    "mc": 79,
    "rating": "Very Positive",
    "ratingPct": 88,
-   "ratingCount": 11708,
+   "ratingCount": 11710,
    "store": "Steam",
    "url": "https://store.steampowered.com/app/527230/",
    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/527230/header.jpg",
@@ -2852,29 +2860,29 @@
     },
     {
      "shop": "MacGameStore",
-     "price": 15.41,
-     "regular": 18.13,
+     "price": 15.44,
+     "regular": 18.17,
      "cut": 15,
      "url": "https://itad.link/018d9386-67e1-71ef-9b65-8f6f396f7ce4/?app=bc8ok8"
     },
     {
      "shop": "WinGameStore",
-     "price": 15.41,
-     "regular": 18.13,
+     "price": 15.44,
+     "regular": 18.17,
      "cut": 15,
      "url": "https://itad.link/018d9386-67e1-71ef-9b65-8f6f3d9a6770/?app=bc8ok8"
     },
     {
      "shop": "GamesPlanet US",
-     "price": 16.32,
-     "regular": 18.13,
+     "price": 16.35,
+     "regular": 18.17,
      "cut": 10,
      "url": "https://itad.link/018d9386-67e1-71ef-9b65-8f6f340becee/?app=bc8ok8"
     },
     {
      "shop": "GamesPlanet UK",
-     "price": 16.71,
-     "regular": 18.57,
+     "price": 16.7,
+     "regular": 18.56,
      "cut": 10,
      "url": "https://itad.link/018d9386-67e1-71ef-9b65-8f6f3271effd/?app=bc8ok8"
     },
@@ -2982,15 +2990,15 @@
     },
     {
      "shop": "GamesPlanet US",
-     "price": 24.49,
-     "regular": 27.21,
+     "price": 24.53,
+     "regular": 27.25,
      "cut": 10,
      "url": "https://itad.link/018d9386-e78d-72ba-a385-274a10758131/?app=bc8ok8"
     },
     {
      "shop": "GamesPlanet UK",
-     "price": 26.96,
-     "regular": 29.96,
+     "price": 26.95,
+     "regular": 29.94,
      "cut": 10,
      "url": "https://itad.link/018d9386-e78d-72ba-a385-274a0f082bba/?app=bc8ok8"
     },
@@ -3071,7 +3079,7 @@
     {
      "shop": "WinGameStore",
      "price": 1.35,
-     "regular": 27.21,
+     "regular": 27.25,
      "cut": 95,
      "url": "https://itad.link/018d9386-f39e-7136-92ff-a3b363ba6283/?app=bc8ok8"
     },
@@ -3091,15 +3099,15 @@
     },
     {
      "shop": "GamesPlanet US",
-     "price": 24.49,
-     "regular": 27.21,
+     "price": 24.53,
+     "regular": 27.25,
      "cut": 10,
      "url": "https://itad.link/018d9386-f39d-719a-9489-ffe6e2adcc40/?app=bc8ok8"
     },
     {
      "shop": "GamesPlanet UK",
-     "price": 26.96,
-     "regular": 29.96,
+     "price": 26.95,
+     "regular": 29.94,
      "cut": 10,
      "url": "https://itad.link/018d9386-f39d-719a-9489-ffe6e3eba5ad/?app=bc8ok8"
     },
@@ -3179,7 +3187,7 @@
    "mc": 85,
    "rating": "Very Positive",
    "ratingPct": 80,
-   "ratingCount": 1675,
+   "ratingCount": 1676,
    "store": "Steam",
    "url": "https://store.steampowered.com/app/13540/",
    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/13540/header.jpg",
@@ -3201,8 +3209,8 @@
     },
     {
      "shop": "GamesPlanet US",
-     "price": 8.16,
-     "regular": 9.06,
+     "price": 8.17,
+     "regular": 9.08,
      "cut": 10,
      "url": "https://itad.link/018d9386-e1f1-718a-a9f6-0c39fbf8833a/?app=bc8ok8"
     },
@@ -3222,8 +3230,8 @@
     },
     {
      "shop": "GamesPlanet UK",
-     "price": 9.27,
-     "regular": 10.3,
+     "price": 9.26,
+     "regular": 10.29,
      "cut": 10,
      "url": "https://itad.link/018d9386-e1f1-718a-a9f6-0c39e9d6f1bd/?app=bc8ok8"
     },
@@ -3282,15 +3290,15 @@
     },
     {
      "shop": "WinGameStore",
-     "price": 11.42,
-     "regular": 13.6,
+     "price": 11.44,
+     "regular": 13.62,
      "cut": 16,
      "url": "https://itad.link/018d9386-f620-70d4-9fba-5f2d3f5f2c58/?app=bc8ok8"
     },
     {
      "shop": "GamesPlanet US",
-     "price": 12.24,
-     "regular": 13.6,
+     "price": 12.26,
+     "regular": 13.62,
      "cut": 10,
      "url": "https://itad.link/018d9386-f620-70d4-9fba-5f2d3ebf0b2c/?app=bc8ok8"
     },
@@ -3384,8 +3392,8 @@
     },
     {
      "shop": "GamesPlanet US",
-     "price": 12.24,
-     "regular": 13.6,
+     "price": 12.26,
+     "regular": 13.62,
      "cut": 10,
      "url": "https://itad.link/018dc0bd-7d9a-7255-b399-94a491dd9aee/?app=bc8ok8"
     },
@@ -3412,8 +3420,8 @@
     },
     {
      "shop": "GamesPlanet UK",
-     "price": 13.8,
-     "regular": 15.33,
+     "price": 13.79,
+     "regular": 15.32,
      "cut": 10,
      "url": "https://itad.link/018dc0bd-510a-7201-a771-53d2abf3ed6a/?app=bc8ok8"
     },
@@ -3478,6 +3486,13 @@
      "url": "https://itad.link/018d9386-f4db-7240-bbb3-3637ec58995b/?app=bc8ok8"
     },
     {
+     "shop": "GreenManGaming",
+     "price": 1.25,
+     "regular": 12.49,
+     "cut": 90,
+     "url": "https://itad.link/0196001a-536f-70fa-b961-a14b25e61f28/?app=bc8ok8"
+    },
+    {
      "shop": "GOG",
      "price": 3.09,
      "regular": 12.49,
@@ -3514,14 +3529,14 @@
     },
     {
      "shop": "GamesPlanet US",
-     "price": 12.24,
-     "regular": 13.6,
+     "price": 12.26,
+     "regular": 13.62,
      "cut": 10,
      "url": "https://itad.link/018d9386-f4db-7240-bbb3-3637f0817d51/?app=bc8ok8"
     },
     {
      "shop": "GamesPlanet UK",
-     "price": 12.29,
+     "price": 12.28,
      "regular": 13.65,
      "cut": 10,
      "url": "https://itad.link/018d9386-f4db-7240-bbb3-3637ef17bf37/?app=bc8ok8"
@@ -3532,13 +3547,6 @@
      "regular": 12.49,
      "cut": 0,
      "url": "https://itad.link/018d9386-f4db-7240-bbb3-3637ea4255c9/?app=bc8ok8"
-    },
-    {
-     "shop": "GreenManGaming",
-     "price": 12.49,
-     "regular": 12.49,
-     "cut": 0,
-     "url": "https://itad.link/0196001a-536f-70fa-b961-a14b25e61f28/?app=bc8ok8"
     },
     {
      "shop": "IndieGala Store",
@@ -3556,15 +3564,15 @@
     },
     {
      "shop": "WinGameStore",
-     "price": 13.6,
-     "regular": 13.6,
+     "price": 13.62,
+     "regular": 13.62,
      "cut": 0,
      "url": "https://itad.link/018d9386-f4db-7240-bbb3-3637eb41137e/?app=bc8ok8"
     },
     {
      "shop": "MacGameStore",
-     "price": 13.6,
-     "regular": 13.6,
+     "price": 13.62,
+     "regular": 13.62,
      "cut": 0,
      "url": "https://itad.link/018d9386-f4db-7240-bbb3-3637ebf10cd1/?app=bc8ok8"
     }
@@ -3580,7 +3588,7 @@
    "mc": 82,
    "rating": "Overwhelmingly Positive",
    "ratingPct": 96,
-   "ratingCount": 18034,
+   "ratingCount": 18038,
    "store": "Steam",
    "url": "https://store.steampowered.com/app/597170/",
    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/597170/header.jpg",
@@ -3633,7 +3641,7 @@
    "mc": 81,
    "rating": "Very Positive",
    "ratingPct": 92,
-   "ratingCount": 8542,
+   "ratingCount": 8543,
    "store": "Steam",
    "url": "https://store.steampowered.com/app/2138710/",
    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138710/header.jpg",
@@ -3648,8 +3656,8 @@
     },
     {
      "shop": "WinGameStore",
-     "price": 31.74,
-     "regular": 36.28,
+     "price": 31.8,
+     "regular": 36.34,
      "cut": 13,
      "url": "https://itad.link/018d9386-c806-72a8-91fe-8acca9c210fe/?app=bc8ok8"
     },
@@ -3662,15 +3670,15 @@
     },
     {
      "shop": "GamesPlanet US",
-     "price": 32.65,
-     "regular": 36.28,
+     "price": 32.7,
+     "regular": 36.34,
      "cut": 10,
      "url": "https://itad.link/018d9386-c807-72b6-9208-3d2f17354f24/?app=bc8ok8"
     },
     {
      "shop": "GamesPlanet UK",
-     "price": 34.51,
-     "regular": 38.35,
+     "price": 34.5,
+     "regular": 38.33,
      "cut": 10,
      "url": "https://itad.link/018d9386-c807-72b6-9208-3d2f164e23f3/?app=bc8ok8"
     },
@@ -3689,9 +3697,16 @@
      "url": "https://itad.link/018d9386-c807-72b6-9208-3d2f16f9778e/?app=bc8ok8"
     },
     {
+     "shop": "Fanatical",
+     "price": 35.99,
+     "regular": 39.99,
+     "cut": 10,
+     "url": "https://itad.link/01963e1d-29ae-7035-b988-cee3a395adc2/?app=bc8ok8"
+    },
+    {
      "shop": "WinGameStore",
-     "price": 36.28,
-     "regular": 36.28,
+     "price": 36.34,
+     "regular": 36.34,
      "cut": 0,
      "url": "https://itad.link/018d9386-c807-72b6-9208-3d2f1abad2cd/?app=bc8ok8"
     },
@@ -3843,25 +3858,11 @@
      "url": "https://itad.link/018d959e-086f-7168-8b8c-e7dd514da837/?app=bc8ok8"
     },
     {
-     "shop": "Fanatical",
-     "price": 39.99,
-     "regular": 39.99,
-     "cut": 0,
-     "url": "https://itad.link/01963e1d-29ae-7035-b988-cee3a395adc2/?app=bc8ok8"
-    },
-    {
      "shop": "Muve",
      "price": 40.9,
      "regular": 40.9,
      "cut": 0,
      "url": "https://itad.link/01a0b43c-b0b6-7191-88b5-fa2caf3db849/?app=bc8ok8"
-    },
-    {
-     "shop": "Muve",
-     "price": 40.9,
-     "regular": 40.9,
-     "cut": 0,
-     "url": "https://itad.link/01a0b43c-b0ba-729b-a6c7-658e96ae7f9e/?app=bc8ok8"
     }
    ],
    "slug": "sifu-2138710"
@@ -3961,8 +3962,8 @@
     },
     {
      "shop": "WinGameStore",
-     "price": 13.96,
-     "regular": 18.13,
+     "price": 13.99,
+     "regular": 18.17,
      "cut": 23,
      "url": "https://itad.link/018d9386-ec14-710a-849d-44f99df73a8e/?app=bc8ok8"
     },
@@ -3989,15 +3990,15 @@
     },
     {
      "shop": "GamesPlanet UK",
-     "price": 16.17,
-     "regular": 17.97,
+     "price": 16.16,
+     "regular": 17.96,
      "cut": 10,
      "url": "https://itad.link/018d9386-ec14-710a-849d-44f99a2d4284/?app=bc8ok8"
     },
     {
      "shop": "GamesPlanet US",
-     "price": 16.32,
-     "regular": 18.13,
+     "price": 16.35,
+     "regular": 18.17,
      "cut": 10,
      "url": "https://itad.link/018d9386-ec14-710a-849d-44f99b182e46/?app=bc8ok8"
     },
@@ -4111,13 +4112,13 @@
     {
      "shop": "WinGameStore",
      "price": 1.35,
-     "regular": 27.21,
+     "regular": 27.25,
      "cut": 95,
      "url": "https://itad.link/018d9386-f25f-7217-ba11-8544e0429e2a/?app=bc8ok8"
     },
     {
      "shop": "Playsum",
-     "price": 1.41,
+     "price": 1.36,
      "regular": 29.99,
      "cut": 95,
      "url": "https://itad.link/01a02b03-a3f7-7158-9cd8-5f8b4521f8c5/?app=bc8ok8"
@@ -4152,29 +4153,29 @@
     },
     {
      "shop": "GamesPlanet US",
-     "price": 24.49,
-     "regular": 27.21,
+     "price": 24.53,
+     "regular": 27.25,
      "cut": 10,
      "url": "https://itad.link/018de62a-a3c4-7198-94fd-162699aa0866/?app=bc8ok8"
     },
     {
      "shop": "GamesPlanet US",
-     "price": 24.49,
-     "regular": 27.21,
+     "price": 24.53,
+     "regular": 27.25,
      "cut": 10,
      "url": "https://itad.link/018d9386-f25f-7217-ba11-8544db4e0437/?app=bc8ok8"
     },
     {
      "shop": "GamesPlanet UK",
-     "price": 26.96,
-     "regular": 29.96,
+     "price": 26.95,
+     "regular": 29.94,
      "cut": 10,
      "url": "https://itad.link/018de62a-84da-73db-a117-089921faee23/?app=bc8ok8"
     },
     {
      "shop": "GamesPlanet UK",
-     "price": 26.96,
-     "regular": 29.96,
+     "price": 26.95,
+     "regular": 29.94,
      "cut": 10,
      "url": "https://itad.link/018d9386-f25f-7217-ba11-8544dc9882f1/?app=bc8ok8"
     },
@@ -4311,7 +4312,7 @@
    "mc": 89,
    "rating": "Overwhelmingly Positive",
    "ratingPct": 98,
-   "ratingCount": 2191,
+   "ratingCount": 2200,
    "store": "Steam",
    "url": "https://store.steampowered.com/app/3699590/",
    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3699590/header.jpg",
@@ -4340,8 +4341,8 @@
     },
     {
      "shop": "WinGameStore",
-     "price": 18.13,
-     "regular": 18.13,
+     "price": 18.17,
+     "regular": 18.17,
      "cut": 0,
      "url": "https://itad.link/01a136da-faf2-710e-87e6-83b8b1abdd0c/?app=bc8ok8"
     },
@@ -4389,7 +4390,7 @@
    "mc": 0,
    "rating": "Overwhelmingly Positive",
    "ratingPct": 98,
-   "ratingCount": 1609,
+   "ratingCount": 1614,
    "store": "Steam",
    "url": "https://store.steampowered.com/app/3510740/",
    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3510740/header.jpg",
@@ -4428,13 +4429,6 @@
      "url": "https://itad.link/018d9386-50b9-7029-bb9c-2e5d9121d68d/?app=bc8ok8"
     },
     {
-     "shop": "GOG",
-     "price": 2.95,
-     "regular": 14.79,
-     "cut": 80,
-     "url": "https://itad.link/018d9386-50b9-7029-bb9c-2e5d91124fa8/?app=bc8ok8"
-    },
-    {
      "shop": "Steam",
      "price": 2.95,
      "regular": 14.79,
@@ -4447,6 +4441,13 @@
      "regular": 14.79,
      "cut": 0,
      "url": "https://itad.link/018d9386-50b9-7029-bb9c-2e5d9394563c/?app=bc8ok8"
+    },
+    {
+     "shop": "GOG",
+     "price": 14.79,
+     "regular": 14.79,
+     "cut": 0,
+     "url": "https://itad.link/018d9386-50b9-7029-bb9c-2e5d91124fa8/?app=bc8ok8"
     }
    ],
    "steamPrice": 2.95,
@@ -4461,7 +4462,7 @@
    "mc": 73,
    "rating": "Overwhelmingly Positive",
    "ratingPct": 98,
-   "ratingCount": 1442,
+   "ratingCount": 1445,
    "store": "Steam",
    "url": "https://store.steampowered.com/app/2429050/",
    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2429050/header.jpg",
@@ -4486,7 +4487,7 @@
    "mc": 0,
    "rating": "Overwhelmingly Positive",
    "ratingPct": 98,
-   "ratingCount": 1366,
+   "ratingCount": 1367,
    "store": "Steam",
    "url": "https://store.steampowered.com/app/3445580/",
    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3445580/header.jpg",
@@ -4511,7 +4512,7 @@
    "mc": 0,
    "rating": "Overwhelmingly Positive",
    "ratingPct": 98,
-   "ratingCount": 1321,
+   "ratingCount": 1320,
    "store": "Steam",
    "url": "https://store.steampowered.com/app/3330250/",
    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3330250/header.jpg",
@@ -4536,7 +4537,7 @@
    "mc": 0,
    "rating": "Overwhelmingly Positive",
    "ratingPct": 98,
-   "ratingCount": 1117,
+   "ratingCount": 1118,
    "store": "Steam",
    "url": "https://store.steampowered.com/app/3547270/",
    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3547270/header.jpg",
@@ -4561,7 +4562,7 @@
    "mc": 0,
    "rating": "Overwhelmingly Positive",
    "ratingPct": 98,
-   "ratingCount": 868,
+   "ratingCount": 870,
    "store": "Steam",
    "url": "https://store.steampowered.com/app/4241920/",
    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4241920/header.jpg",
@@ -4618,7 +4619,7 @@
    "mc": 0,
    "rating": "Overwhelmingly Positive",
    "ratingPct": 98,
-   "ratingCount": 611,
+   "ratingCount": 682,
    "store": "Steam",
    "url": "https://store.steampowered.com/app/3285880/",
    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3285880/header.jpg",
@@ -4668,7 +4669,7 @@
    "mc": 0,
    "rating": "Overwhelmingly Positive",
    "ratingPct": 98,
-   "ratingCount": 536,
+   "ratingCount": 537,
    "store": "Steam",
    "url": "https://store.steampowered.com/app/3275880/",
    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3275880/header.jpg",
@@ -4693,7 +4694,7 @@
    "mc": 79,
    "rating": "Overwhelmingly Positive",
    "ratingPct": 97,
-   "ratingCount": 147843,
+   "ratingCount": 147863,
    "store": "Steam",
    "url": "https://store.steampowered.com/app/227300/",
    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/header.jpg",
@@ -4746,7 +4747,7 @@
    "mc": 76,
    "rating": "Overwhelmingly Positive",
    "ratingPct": 97,
-   "ratingCount": 96257,
+   "ratingCount": 96267,
    "store": "Steam",
    "url": "https://store.steampowered.com/app/270880/",
    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/270880/header.jpg",
@@ -4792,7 +4793,7 @@
    "mc": 87,
    "rating": "Overwhelmingly Positive",
    "ratingPct": 97,
-   "ratingCount": 10576,
+   "ratingCount": 10577,
    "store": "Steam",
    "url": "https://store.steampowered.com/app/1043810/",
    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1043810/header.jpg",
@@ -4817,7 +4818,7 @@
    "mc": 79,
    "rating": "Overwhelmingly Positive",
    "ratingPct": 97,
-   "ratingCount": 6068,
+   "ratingCount": 6070,
    "store": "Steam",
    "url": "https://store.steampowered.com/app/3035120/",
    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3035120/header.jpg",
@@ -4927,7 +4928,7 @@
    "mc": 0,
    "rating": "Overwhelmingly Positive",
    "ratingPct": 97,
-   "ratingCount": 2109,
+   "ratingCount": 2213,
    "store": "AllYouPlay",
    "url": "https://itad.link/01a1c0af-0047-70b3-87d8-53d4f0b975ec/?app=bc8ok8",
    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4576490/header.jpg",
@@ -4949,8 +4950,8 @@
     },
     {
      "shop": "WinGameStore",
-     "price": 16.31,
-     "regular": 20.86,
+     "price": 16.34,
+     "regular": 20.89,
      "cut": 22,
      "url": "https://itad.link/01a1c0d3-e116-7137-ada8-74b6fe226e14/?app=bc8ok8"
     },
@@ -5073,7 +5074,7 @@
    "mc": 82,
    "rating": "Overwhelmingly Positive",
    "ratingPct": 97,
-   "ratingCount": 1721,
+   "ratingCount": 1722,
    "store": "Steam",
    "url": "https://store.steampowered.com/app/2394650/",
    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2394650/header.jpg",
@@ -5155,8 +5156,8 @@
     },
     {
      "shop": "GamesPlanet US",
-     "price": 13.87,
-     "regular": 15.41,
+     "price": 13.89,
+     "regular": 15.44,
      "cut": 10,
      "url": "https://itad.link/019abacc-e31f-7377-9c7f-1801caa3b30d/?app=bc8ok8"
     },
@@ -5183,8 +5184,8 @@
     },
     {
      "shop": "GamesPlanet UK",
-     "price": 15.42,
-     "regular": 17.13,
+     "price": 15.41,
+     "regular": 17.12,
      "cut": 10,
      "url": "https://itad.link/019abacc-6847-71fa-8d8e-532c3a322f99/?app=bc8ok8"
     },
@@ -5242,7 +5243,7 @@
    "mc": 0,
    "rating": "Overwhelmingly Positive",
    "ratingPct": 97,
-   "ratingCount": 1571,
+   "ratingCount": 1635,
    "store": "Steam",
    "url": "https://store.steampowered.com/app/3816120/",
    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3816120/header.jpg",
@@ -5317,8 +5318,8 @@
     },
     {
      "shop": "IndieGala Store",
-     "price": 22.66,
-     "regular": 22.66,
+     "price": 22.67,
+     "regular": 22.67,
      "cut": 0,
      "url": "https://itad.link/018d9584-f042-7382-bdc4-e454a6c9767f/?app=bc8ok8"
     },
@@ -5356,7 +5357,7 @@
    "mc": 0,
    "rating": "Overwhelmingly Positive",
    "ratingPct": 97,
-   "ratingCount": 1296,
+   "ratingCount": 1297,
    "store": "Steam",
    "url": "https://store.steampowered.com/app/2102040/",
    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2102040/header.jpg",
@@ -5375,7 +5376,7 @@
   {
    "id": "3119540",
    "title": "Scriptorium: Master of Manuscripts",
-   "price": 8.6,
+   "price": 8.61,
    "orig": 14.99,
    "disc": 43,
    "mc": 0,
@@ -5389,8 +5390,8 @@
    "shops": [
     {
      "shop": "GamesPlanet US",
-     "price": 8.6,
-     "regular": 13.6,
+     "price": 8.61,
+     "regular": 13.62,
      "cut": 37,
      "url": "https://itad.link/019d973e-ff0f-70f9-8a47-c125328c6a8d/?app=bc8ok8"
     },
@@ -5417,22 +5418,22 @@
     },
     {
      "shop": "GamesPlanet UK",
-     "price": 9.88,
-     "regular": 15.57,
+     "price": 9.87,
+     "regular": 15.56,
      "cut": 37,
      "url": "https://itad.link/019d973e-dad0-7103-b7bf-48cbdc68b62f/?app=bc8ok8"
     },
     {
      "shop": "GamersGate",
-     "price": 10.14,
-     "regular": 13.53,
+     "price": 10.17,
+     "regular": 13.56,
      "cut": 25,
      "url": "https://itad.link/019d974f-a7b8-7200-bf65-219f95b59f34/?app=bc8ok8"
     },
     {
      "shop": "WinGameStore",
-     "price": 10.2,
-     "regular": 13.6,
+     "price": 10.21,
+     "regular": 13.62,
      "cut": 25,
      "url": "https://itad.link/019d9773-c8ed-714e-b66b-bfb083e64759/?app=bc8ok8"
     },
@@ -5465,13 +5466,6 @@
      "url": "https://itad.link/019d974e-10ec-71de-9f6d-44b2a6f5a42d/?app=bc8ok8"
     },
     {
-     "shop": "GOG",
-     "price": 11.25,
-     "regular": 14.99,
-     "cut": 25,
-     "url": "https://itad.link/01a10bf9-8911-70d1-8c1f-00e6785a5961/?app=bc8ok8"
-    },
-    {
      "shop": "Fanatical",
      "price": 12.81,
      "regular": 14.99,
@@ -5498,35 +5492,17 @@
      "regular": 14.99,
      "cut": 0,
      "url": "https://itad.link/01a12125-37f4-7326-83a3-aae459069c65/?app=bc8ok8"
+    },
+    {
+     "shop": "GOG",
+     "price": 14.99,
+     "regular": 14.99,
+     "cut": 0,
+     "url": "https://itad.link/01a10bf9-8911-70d1-8c1f-00e6785a5961/?app=bc8ok8"
     }
    ],
    "steamPrice": 11.24,
    "slug": "scriptorium-master-of-manuscripts-3119540"
-  },
-  {
-   "id": "3396010",
-   "title": "Black Friday Janitor: Clean the Whole Mall",
-   "price": 4.92,
-   "orig": 6.15,
-   "disc": 20,
-   "mc": 0,
-   "rating": "Overwhelmingly Positive",
-   "ratingPct": 97,
-   "ratingCount": 1011,
-   "store": "Steam",
-   "url": "https://store.steampowered.com/app/3396010/",
-   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3396010/header.jpg",
-   "low": 4.92,
-   "shops": [
-    {
-     "shop": "Steam",
-     "price": 4.92,
-     "regular": 6.15,
-     "cut": 20,
-     "url": "https://itad.link/01a089e7-251b-73ba-ab2e-53a691303857/?app=bc8ok8"
-    }
-   ],
-   "slug": "black-friday-janitor-clean-the-whole-mall-3396010"
   },
   {
    "id": "949480",
@@ -5650,7 +5626,7 @@
    "mc": 0,
    "rating": "Overwhelmingly Positive",
    "ratingPct": 97,
-   "ratingCount": 816,
+   "ratingCount": 817,
    "store": "Steam",
    "url": "https://store.steampowered.com/app/1679210/",
    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1679210/header.jpg",
@@ -5703,7 +5679,7 @@
    "mc": 0,
    "rating": "Overwhelmingly Positive",
    "ratingPct": 97,
-   "ratingCount": 526,
+   "ratingCount": 527,
    "store": "Steam",
    "url": "https://store.steampowered.com/app/2507620/",
    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2507620/header.jpg",
@@ -5728,7 +5704,7 @@
    "mc": 80,
    "rating": "Overwhelmingly Positive",
    "ratingPct": 96,
-   "ratingCount": 33175,
+   "ratingCount": 33177,
    "store": "GOG",
    "url": "https://itad.link/018d9386-52c7-715c-ac5a-5c60480992af/?app=bc8ok8",
    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1562430/header.jpg",
@@ -5743,15 +5719,15 @@
     },
     {
      "shop": "GamesPlanet US",
-     "price": 19.27,
-     "regular": 22.67,
+     "price": 19.3,
+     "regular": 22.71,
      "cut": 15,
      "url": "https://itad.link/01930c38-aba2-7359-b5a0-500bcb651620/?app=bc8ok8"
     },
     {
      "shop": "GamesPlanet US",
-     "price": 19.27,
-     "regular": 22.67,
+     "price": 19.3,
+     "regular": 22.71,
      "cut": 15,
      "url": "https://itad.link/018d9386-52c7-715c-ac5a-5c604c499682/?app=bc8ok8"
     },
@@ -5799,15 +5775,15 @@
     },
     {
      "shop": "GamesPlanet UK",
-     "price": 22.4,
-     "regular": 26.36,
+     "price": 22.39,
+     "regular": 26.35,
      "cut": 15,
      "url": "https://itad.link/01930c38-8f0c-70f9-92ed-651faff82f6f/?app=bc8ok8"
     },
     {
      "shop": "GamesPlanet UK",
-     "price": 22.4,
-     "regular": 26.36,
+     "price": 22.39,
+     "regular": 26.35,
      "cut": 15,
      "url": "https://itad.link/018d9386-52c7-715c-ac5a-5c604bb6fe3a/?app=bc8ok8"
     },
@@ -5915,7 +5891,7 @@
    "mc": 76,
    "rating": "Overwhelmingly Positive",
    "ratingPct": 96,
-   "ratingCount": 33157,
+   "ratingCount": 33162,
    "store": "IndieGala Store",
    "url": "https://itad.link/019e204d-5101-7031-afa8-6f536be4638f/?app=bc8ok8",
    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1942280/header.jpg",
@@ -5951,14 +5927,14 @@
     },
     {
      "shop": "MacGameStore",
-     "price": 2.71,
+     "price": 2.72,
      "regular": 4.53,
      "cut": 40,
      "url": "https://itad.link/019e1d1a-cd87-7131-87b0-39949110500d/?app=bc8ok8"
     },
     {
      "shop": "WinGameStore",
-     "price": 2.71,
+     "price": 2.72,
      "regular": 4.53,
      "cut": 40,
      "url": "https://itad.link/019e1d1a-e2f3-7085-bac3-f501c7a029f1/?app=bc8ok8"
@@ -6012,13 +5988,13 @@
   {
    "id": "2162800",
    "title": "shapez 2 - Factory",
-   "price": 14.03,
+   "price": 14.06,
    "orig": 38.99,
    "disc": 64,
    "mc": 80,
    "rating": "Overwhelmingly Positive",
    "ratingPct": 96,
-   "ratingCount": 9036,
+   "ratingCount": 9038,
    "store": "GamesPlanet US",
    "url": "https://itad.link/01915b53-ecef-7049-9a37-765394589cce/?app=bc8ok8",
    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2162800/header.jpg",
@@ -6026,8 +6002,8 @@
    "shops": [
     {
      "shop": "GamesPlanet US",
-     "price": 14.03,
-     "regular": 27.21,
+     "price": 14.06,
+     "regular": 27.25,
      "cut": 48,
      "url": "https://itad.link/01915b53-ecef-7049-9a37-765394589cce/?app=bc8ok8"
     },
@@ -6061,8 +6037,8 @@
     },
     {
      "shop": "GamesPlanet UK",
-     "price": 15.5,
-     "regular": 29.96,
+     "price": 15.49,
+     "regular": 29.94,
      "cut": 48,
      "url": "https://itad.link/01915b46-9643-71bd-99bc-581cd1088289/?app=bc8ok8"
     },
@@ -6103,15 +6079,15 @@
     },
     {
      "shop": "MacGameStore",
-     "price": 27.21,
-     "regular": 27.21,
+     "price": 27.25,
+     "regular": 27.25,
      "cut": 0,
      "url": "https://itad.link/01914caf-1cbb-7307-93f3-cc4776438d23/?app=bc8ok8"
     },
     {
      "shop": "WinGameStore",
-     "price": 27.21,
-     "regular": 27.21,
+     "price": 27.25,
+     "regular": 27.25,
      "cut": 0,
      "url": "https://itad.link/01914caf-13da-7006-be77-6880b828c4a8/?app=bc8ok8"
     },
@@ -6163,7 +6139,7 @@
    "mc": 0,
    "rating": "Overwhelmingly Positive",
    "ratingPct": 96,
-   "ratingCount": 8433,
+   "ratingCount": 8432,
    "store": "Fanatical",
    "url": "https://itad.link/018d9386-d604-712b-9066-c8c858c6844e/?app=bc8ok8",
    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/512900/header.jpg",
@@ -6185,9 +6161,9 @@
     },
     {
      "shop": "GOG",
-     "price": 4.19,
+     "price": 16.79,
      "regular": 16.79,
-     "cut": 75,
+     "cut": 0,
      "url": "https://itad.link/018d9386-d604-712b-9066-c8c85c40c2ed/?app=bc8ok8"
     },
     {
@@ -6205,25 +6181,25 @@
      "url": "https://itad.link/018d9386-d604-712b-9066-c8c868b20d72/?app=bc8ok8"
     },
     {
+     "shop": "IndieGala Store",
+     "price": 18.14,
+     "regular": 18.14,
+     "cut": 0,
+     "url": "https://itad.link/018d9386-d604-712b-9066-c8c85a64c95f/?app=bc8ok8"
+    },
+    {
      "shop": "WinGameStore",
-     "price": 18.13,
-     "regular": 18.13,
+     "price": 18.17,
+     "regular": 18.17,
      "cut": 0,
      "url": "https://itad.link/018d9386-d604-712b-9066-c8c864368da7/?app=bc8ok8"
     },
     {
      "shop": "MacGameStore",
-     "price": 18.13,
-     "regular": 18.13,
+     "price": 18.17,
+     "regular": 18.17,
      "cut": 0,
      "url": "https://itad.link/018d9386-d604-712b-9066-c8c86354debf/?app=bc8ok8"
-    },
-    {
-     "shop": "IndieGala Store",
-     "price": 18.13,
-     "regular": 18.13,
-     "cut": 0,
-     "url": "https://itad.link/018d9386-d604-712b-9066-c8c85a64c95f/?app=bc8ok8"
     },
     {
      "shop": "GameBillet",
@@ -6259,7 +6235,7 @@
    "mc": 0,
    "rating": "Overwhelmingly Positive",
    "ratingPct": 96,
-   "ratingCount": 6853,
+   "ratingCount": 6860,
    "store": "Steam",
    "url": "https://store.steampowered.com/app/2660460/",
    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2660460/header.jpg",
@@ -6284,7 +6260,7 @@
    "mc": 85,
    "rating": "Overwhelmingly Positive",
    "ratingPct": 96,
-   "ratingCount": 6293,
+   "ratingCount": 6295,
    "store": "Steam",
    "url": "https://store.steampowered.com/app/1836730/",
    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1836730/header.jpg",
@@ -6316,13 +6292,6 @@
    "low": 9.99,
    "shops": [
     {
-     "shop": "Microsoft Store",
-     "price": 9.99,
-     "regular": 24.99,
-     "cut": 60,
-     "url": "https://itad.link/018d9386-dbe8-7236-b739-34a9bb2c31ad/?app=bc8ok8"
-    },
-    {
      "shop": "Steam",
      "price": 9.99,
      "regular": 24.99,
@@ -6349,6 +6318,13 @@
      "regular": 24.99,
      "cut": 0,
      "url": "https://itad.link/019072d1-6dc5-7003-98ea-4429b791f70e/?app=bc8ok8"
+    },
+    {
+     "shop": "Microsoft Store",
+     "price": 24.99,
+     "regular": 24.99,
+     "cut": 0,
+     "url": "https://itad.link/018d9386-dbe8-7236-b739-34a9bb2c31ad/?app=bc8ok8"
     }
    ],
    "slug": "teenage-mutant-ninja-turtles-shredders-revenge-1361510"
@@ -6430,15 +6406,15 @@
     },
     {
      "shop": "GamesPlanet UK",
-     "price": 7.76,
+     "price": 7.75,
      "regular": 8.62,
      "cut": 10,
      "url": "https://itad.link/018d9386-a70c-71c3-a428-e101519517dd/?app=bc8ok8"
     },
     {
      "shop": "GamesPlanet US",
-     "price": 8.16,
-     "regular": 9.06,
+     "price": 8.17,
+     "regular": 9.08,
      "cut": 10,
      "url": "https://itad.link/018d9386-a70c-71c3-a428-e101526d477c/?app=bc8ok8"
     },
@@ -6508,15 +6484,15 @@
     },
     {
      "shop": "GamesPlanet US",
-     "price": 9.06,
-     "regular": 9.06,
+     "price": 9.08,
+     "regular": 9.08,
      "cut": 0,
      "url": "https://itad.link/018d9386-3de1-73e7-bf04-974b31810936/?app=bc8ok8"
     },
     {
      "shop": "MacGameStore",
-     "price": 9.06,
-     "regular": 9.06,
+     "price": 9.08,
+     "regular": 9.08,
      "cut": 0,
      "url": "https://itad.link/018d9386-c6e6-7265-9e6b-d2be4d5205aa/?app=bc8ok8"
     },
@@ -6574,7 +6550,7 @@
    "mc": 0,
    "rating": "Overwhelmingly Positive",
    "ratingPct": 96,
-   "ratingCount": 2773,
+   "ratingCount": 2776,
    "store": "Steam",
    "url": "https://store.steampowered.com/app/3602570/",
    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3602570/header.jpg",
@@ -6628,8 +6604,8 @@
     },
     {
      "shop": "WinGameStore",
-     "price": 12.24,
-     "regular": 13.6,
+     "price": 12.26,
+     "regular": 13.62,
      "cut": 10,
      "url": "https://itad.link/018d9386-8623-70c3-b41e-f72850747e4b/?app=bc8ok8"
     },
@@ -6656,8 +6632,8 @@
     },
     {
      "shop": "IndieGala Store",
-     "price": 13.59,
-     "regular": 13.59,
+     "price": 13.6,
+     "regular": 13.6,
      "cut": 0,
      "url": "https://itad.link/018d9584-83e2-702c-be16-c783e1dfd1b6/?app=bc8ok8"
     },
@@ -6769,6 +6745,63 @@
    "slug": "kill-the-crows-2441270"
   },
   {
+   "id": "568320",
+   "title": "Pictopix",
+   "price": 4.89,
+   "orig": 6.99,
+   "disc": 30,
+   "mc": 0,
+   "rating": "Overwhelmingly Positive",
+   "ratingPct": 96,
+   "ratingCount": 1416,
+   "store": "Steam",
+   "url": "https://store.steampowered.com/app/568320/",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/568320/header.jpg",
+   "low": 2.19,
+   "shops": [
+    {
+     "shop": "Steam",
+     "price": 4.89,
+     "regular": 6.99,
+     "cut": 30,
+     "url": "https://itad.link/018d9386-ac79-705f-9b86-cdd0ad31cbc3/?app=bc8ok8"
+    },
+    {
+     "shop": "Humble Store",
+     "price": 6.99,
+     "regular": 6.99,
+     "cut": 0,
+     "url": "https://itad.link/018d9386-ac79-705f-9b86-cdd0aa1ae699/?app=bc8ok8"
+    }
+   ],
+   "slug": "pictopix-568320"
+  },
+  {
+   "id": "2430730",
+   "title": "My Child Lebensborn Remastered",
+   "price": 3.89,
+   "orig": 7.79,
+   "disc": 50,
+   "mc": 0,
+   "rating": "Overwhelmingly Positive",
+   "ratingPct": 96,
+   "ratingCount": 1358,
+   "store": "Steam",
+   "url": "https://store.steampowered.com/app/2430730/",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2430730/header.jpg",
+   "low": 2.33,
+   "shops": [
+    {
+     "shop": "Steam",
+     "price": 3.89,
+     "regular": 7.79,
+     "cut": 50,
+     "url": "https://itad.link/018d9386-9e0e-72f0-8a72-23b54b7681a8/?app=bc8ok8"
+    }
+   ],
+   "slug": "my-child-lebensborn-remastered-2430730"
+  },
+  {
    "id": "2239150",
    "title": "Thronefall",
    "price": 6.49,
@@ -6777,7 +6810,7 @@
    "mc": 92,
    "rating": "Overwhelmingly Positive",
    "ratingPct": 95,
-   "ratingCount": 11205,
+   "ratingCount": 11209,
    "store": "Steam",
    "url": "https://store.steampowered.com/app/2239150/",
    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2239150/header.jpg",
@@ -6883,7 +6916,7 @@
    "mc": 90,
    "rating": "Overwhelmingly Positive",
    "ratingPct": 95,
-   "ratingCount": 78970,
+   "ratingCount": 78973,
    "store": "WinGameStore",
    "url": "https://itad.link/018d9386-c6eb-7053-be7f-e7e5756f19a0/?app=bc8ok8",
    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/8930/header.jpg",
@@ -6892,14 +6925,14 @@
     {
      "shop": "WinGameStore",
      "price": 4.53,
-     "regular": 27.21,
+     "regular": 27.25,
      "cut": 83,
      "url": "https://itad.link/018d9386-c6eb-7053-be7f-e7e5756f19a0/?app=bc8ok8"
     },
     {
      "shop": "MacGameStore",
-     "price": 6.79,
-     "regular": 27.17,
+     "price": 6.8,
+     "regular": 27.22,
      "cut": 75,
      "url": "https://itad.link/018d9386-c6eb-7053-be7f-e7e56d330b05/?app=bc8ok8"
     },
@@ -6918,23 +6951,30 @@
      "url": "https://itad.link/019a4182-625d-72b7-a3e8-0bafa023e9ad/?app=bc8ok8"
     },
     {
+     "shop": "Dreamgame",
+     "price": 7.5,
+     "regular": 29.99,
+     "cut": 75,
+     "url": "https://itad.link/0193baec-fea7-70a7-88ed-7526f33fab72/?app=bc8ok8"
+    },
+    {
      "shop": "GamesPlanet UK",
-     "price": 21.57,
-     "regular": 23.96,
+     "price": 21.56,
+     "regular": 23.95,
      "cut": 10,
      "url": "https://itad.link/018d9386-c6ea-7102-a69e-ee775c175f0d/?app=bc8ok8"
     },
     {
      "shop": "GamesPlanet UK",
-     "price": 23.96,
-     "regular": 23.96,
+     "price": 23.95,
+     "regular": 23.95,
      "cut": 0,
      "url": "https://itad.link/018d9386-3e7b-7334-9478-c7b062b9a26d/?app=bc8ok8"
     },
     {
      "shop": "GamesPlanet US",
-     "price": 24.49,
-     "regular": 27.21,
+     "price": 24.53,
+     "regular": 27.25,
      "cut": 10,
      "url": "https://itad.link/018d9386-3de2-703c-a008-bbe8560abdb7/?app=bc8ok8"
     },
@@ -6954,8 +6994,8 @@
     },
     {
      "shop": "GamesPlanet US",
-     "price": 27.21,
-     "regular": 27.21,
+     "price": 27.25,
+     "regular": 27.25,
      "cut": 0,
      "url": "https://itad.link/018d9386-3e7b-7334-9478-c7b0641f99a1/?app=bc8ok8"
     },
@@ -7058,13 +7098,6 @@
      "url": "https://itad.link/018d9386-c6eb-7053-be7f-e7e57eca604e/?app=bc8ok8"
     },
     {
-     "shop": "Dreamgame",
-     "price": 29.99,
-     "regular": 29.99,
-     "cut": 0,
-     "url": "https://itad.link/0193baec-fea7-70a7-88ed-7526f33fab72/?app=bc8ok8"
-    },
-    {
      "shop": "AllYouPlay",
      "price": 29.99,
      "regular": 29.99,
@@ -7085,13 +7118,13 @@
   {
    "id": "892970",
    "title": "Valheim",
-   "price": 25.85,
+   "price": 25.89,
    "orig": 29.99,
    "disc": 14,
    "mc": 89,
    "rating": "Very Positive",
    "ratingPct": 94,
-   "ratingCount": 268226,
+   "ratingCount": 268245,
    "store": "GamesPlanet US",
    "url": "https://itad.link/01a06295-4480-704f-9289-f6003698a34e/?app=bc8ok8",
    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/header.jpg",
@@ -7099,22 +7132,22 @@
    "shops": [
     {
      "shop": "GamesPlanet US",
-     "price": 25.85,
-     "regular": 27.21,
+     "price": 25.89,
+     "regular": 27.25,
      "cut": 5,
      "url": "https://itad.link/01a06295-4480-704f-9289-f6003698a34e/?app=bc8ok8"
     },
     {
      "shop": "WinGameStore",
-     "price": 26.21,
-     "regular": 27.21,
+     "price": 26.25,
+     "regular": 27.25,
      "cut": 4,
      "url": "https://itad.link/01a06295-6d61-730e-90e9-4a979e798898/?app=bc8ok8"
     },
     {
      "shop": "GamesPlanet UK",
-     "price": 26.76,
-     "regular": 28.16,
+     "price": 26.74,
+     "regular": 28.15,
      "cut": 5,
      "url": "https://itad.link/01a06295-037c-72e8-9c1e-f6768f4c751c/?app=bc8ok8"
     },
@@ -7194,7 +7227,7 @@
    "mc": 89,
    "rating": "Overwhelmingly Positive",
    "ratingPct": 95,
-   "ratingCount": 3150,
+   "ratingCount": 3157,
    "store": "Steam",
    "url": "https://store.steampowered.com/app/3375780/",
    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3375780/header.jpg",
@@ -7242,14 +7275,14 @@
     {
      "shop": "GamesPlanet UK",
      "price": 3.18,
-     "regular": 17.97,
+     "regular": 17.96,
      "cut": 82,
      "url": "https://itad.link/018d9386-e302-7124-8887-6d7bb107c2c7/?app=bc8ok8"
     },
     {
      "shop": "GamesPlanet US",
-     "price": 3.19,
-     "regular": 18.13,
+     "price": 3.2,
+     "regular": 18.17,
      "cut": 82,
      "url": "https://itad.link/018d9386-e303-70d7-90cc-7486dd27cda4/?app=bc8ok8"
     },
@@ -7318,15 +7351,15 @@
     },
     {
      "shop": "WinGameStore",
-     "price": 15.78,
-     "regular": 18.13,
+     "price": 15.8,
+     "regular": 18.17,
      "cut": 13,
      "url": "https://itad.link/018d9386-e302-7124-8887-6d7bafc5d57a/?app=bc8ok8"
     },
     {
      "shop": "MacGameStore",
-     "price": 15.78,
-     "regular": 18.13,
+     "price": 15.8,
+     "regular": 18.17,
      "cut": 13,
      "url": "https://itad.link/018d9386-e302-7124-8887-6d7baacf99b6/?app=bc8ok8"
     },
@@ -7428,7 +7461,7 @@
    "mc": 87,
    "rating": "Overwhelmingly Positive",
    "ratingPct": 95,
-   "ratingCount": 5574,
+   "ratingCount": 5575,
    "store": "Steam",
    "url": "https://store.steampowered.com/app/412830/",
    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/412830/header.jpg",
@@ -7453,19 +7486,12 @@
    "mc": 87,
    "rating": "Very Positive",
    "ratingPct": 93,
-   "ratingCount": 4843,
+   "ratingCount": 4846,
    "store": "Steam",
    "url": "https://store.steampowered.com/app/1904480/",
    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1904480/header.jpg",
    "low": 14.99,
    "shops": [
-    {
-     "shop": "Microsoft Store",
-     "price": 14.99,
-     "regular": 24.99,
-     "cut": 40,
-     "url": "https://itad.link/019cfd90-bc4a-727f-aebb-af5b55d920dd/?app=bc8ok8"
-    },
     {
      "shop": "GameBillet",
      "price": 14.99,
@@ -7496,8 +7522,8 @@
     },
     {
      "shop": "GamesPlanet US",
-     "price": 20.4,
-     "regular": 22.67,
+     "price": 20.44,
+     "regular": 22.71,
      "cut": 10,
      "url": "https://itad.link/019d8600-41c2-7384-9970-55f95b82602d/?app=bc8ok8"
     },
@@ -7517,10 +7543,17 @@
     },
     {
      "shop": "GamesPlanet UK",
-     "price": 22.64,
-     "regular": 25.16,
+     "price": 22.63,
+     "regular": 25.15,
      "cut": 10,
      "url": "https://itad.link/019d8600-35aa-700b-a15f-b7a4cacacb5f/?app=bc8ok8"
+    },
+    {
+     "shop": "Microsoft Store",
+     "price": 24.99,
+     "regular": 24.99,
+     "cut": 0,
+     "url": "https://itad.link/019cfd90-bc4a-727f-aebb-af5b55d920dd/?app=bc8ok8"
     }
    ],
    "slug": "absolum-1904480"
@@ -7534,7 +7567,7 @@
    "mc": 86,
    "rating": "Very Positive",
    "ratingPct": 94,
-   "ratingCount": 11488,
+   "ratingCount": 11490,
    "store": "Steam",
    "url": "https://store.steampowered.com/app/1369630/",
    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1369630/header.jpg",
@@ -7564,9 +7597,9 @@
    "orig": 24.5,
    "disc": 60,
    "mc": 86,
-   "rating": "Overwhelmingly Positive",
-   "ratingPct": 95,
-   "ratingCount": 1875,
+   "rating": "Very Positive",
+   "ratingPct": 94,
+   "ratingCount": 1877,
    "store": "GOG",
    "url": "https://itad.link/018d9386-2a89-71b4-9186-9d1e683cf611/?app=bc8ok8",
    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1280930/header.jpg",
@@ -7580,13 +7613,6 @@
      "url": "https://itad.link/018d9386-2a89-71b4-9186-9d1e683cf611/?app=bc8ok8"
     },
     {
-     "shop": "Gamesporium",
-     "price": 9.8,
-     "regular": 24.5,
-     "cut": 60,
-     "url": "https://itad.link/01a1b0ac-0814-7213-91be-fc1e5154e0e3/?app=bc8ok8"
-    },
-    {
      "shop": "Steam",
      "price": 9.8,
      "regular": 24.5,
@@ -7595,8 +7621,8 @@
     },
     {
      "shop": "GamesPlanet US",
-     "price": 20.4,
-     "regular": 22.67,
+     "price": 20.44,
+     "regular": 22.71,
      "cut": 10,
      "url": "https://itad.link/018d9386-2a89-71b4-9186-9d1e6b9cbe56/?app=bc8ok8"
     },
@@ -7623,15 +7649,15 @@
     },
     {
      "shop": "GamesPlanet UK",
-     "price": 22.64,
-     "regular": 25.16,
+     "price": 22.63,
+     "regular": 25.15,
      "cut": 10,
      "url": "https://itad.link/018d9386-2a89-71b4-9186-9d1e6a8aed69/?app=bc8ok8"
     },
     {
      "shop": "IndieGala Store",
-     "price": 22.66,
-     "regular": 22.66,
+     "price": 22.67,
+     "regular": 22.67,
      "cut": 0,
      "url": "https://itad.link/018e5c58-8a22-73d7-9d47-5c6320924906/?app=bc8ok8"
     },
@@ -7676,6 +7702,13 @@
      "regular": 24.5,
      "cut": 0,
      "url": "https://itad.link/01905f45-dc63-7224-a2a5-96f624e7fb54/?app=bc8ok8"
+    },
+    {
+     "shop": "Gamesporium",
+     "price": 24.5,
+     "regular": 24.5,
+     "cut": 0,
+     "url": "https://itad.link/01a1b0ac-0814-7213-91be-fc1e5154e0e3/?app=bc8ok8"
     },
     {
      "shop": "Muve",
@@ -7744,8 +7777,8 @@
     },
     {
      "shop": "GamesPlanet US",
-     "price": 16.32,
-     "regular": 18.13,
+     "price": 16.35,
+     "regular": 18.17,
      "cut": 10,
      "url": "https://itad.link/018d9386-e7a3-72e2-acac-d0ed340f247b/?app=bc8ok8"
     },
@@ -7786,8 +7819,8 @@
     },
     {
      "shop": "GamesPlanet UK",
-     "price": 20.37,
-     "regular": 20.37,
+     "price": 20.36,
+     "regular": 20.36,
      "cut": 0,
      "url": "https://itad.link/018d9386-e7a2-71d3-b70a-6b115eda56d9/?app=bc8ok8"
     }
@@ -7818,10 +7851,17 @@
     },
     {
      "shop": "Playsum",
+     "price": 7.08,
+     "regular": 29.99,
+     "cut": 76,
+     "url": "https://itad.link/0197d956-27c0-7206-8442-85bfcc1e7da0/?app=bc8ok8"
+    },
+    {
+     "shop": "Epic Game Store",
      "price": 7.49,
      "regular": 29.99,
      "cut": 75,
-     "url": "https://itad.link/0197d956-27c0-7206-8442-85bfcc1e7da0/?app=bc8ok8"
+     "url": "https://itad.link/018d959e-0865-7120-bdf2-0cb8b7f01588/?app=bc8ok8"
     },
     {
      "shop": "PlanetPlay",
@@ -7845,18 +7885,18 @@
      "url": "https://itad.link/019832f0-4375-7368-8b4d-f4e7f16846d4/?app=bc8ok8"
     },
     {
+     "shop": "GameBillet",
+     "price": 7.5,
+     "regular": 29.99,
+     "cut": 75,
+     "url": "https://itad.link/01991976-f999-7249-975a-b77cd3ba01b5/?app=bc8ok8"
+    },
+    {
      "shop": "Steam",
      "price": 29.99,
      "regular": 29.99,
      "cut": 0,
      "url": "https://itad.link/018d9386-875a-704f-b4d5-5a21031b3a89/?app=bc8ok8"
-    },
-    {
-     "shop": "Epic Game Store",
-     "price": 29.99,
-     "regular": 29.99,
-     "cut": 0,
-     "url": "https://itad.link/018d959e-0865-7120-bdf2-0cb8b7f01588/?app=bc8ok8"
     }
    ],
    "steamPrice": 14.99,
@@ -7929,8 +7969,8 @@
    "shops": [
     {
      "shop": "GamesPlanet UK",
-     "price": 70.12,
-     "regular": 77.91,
+     "price": 70.08,
+     "regular": 77.87,
      "cut": 10,
      "url": "https://itad.link/019a4929-4f22-7111-908f-d833cfb3b87b/?app=bc8ok8"
     },
@@ -8008,93 +8048,69 @@
    "slug": "nioh-3-3681010"
   },
   {
-   "id": "451140",
-   "title": "Drawn: Dark Flight  Collector's Edition",
-   "price": 6.82,
-   "orig": 19.5,
-   "disc": 65,
+   "id": "4188070",
+   "title": "hop to bunny restaurant!",
+   "price": 4.76,
+   "orig": 5.29,
+   "disc": 10,
    "mc": 0,
-   "rating": "Mostly Positive",
-   "ratingPct": 73,
-   "ratingCount": 61,
+   "rating": null,
+   "ratingPct": 0,
+   "ratingCount": 0,
    "store": "Steam",
-   "url": "https://store.steampowered.com/app/451140/",
-   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/451140/header.jpg",
-   "low": 2.99,
-   "shops": [
-    {
-     "shop": "Steam",
-     "price": 6.82,
-     "regular": 19.5,
-     "cut": 65,
-     "url": "https://itad.link/018d9386-51a6-72f9-a2cb-cb383f5ccb27/?app=bc8ok8"
-    },
-    {
-     "shop": "MacGameStore",
-     "price": 18.13,
-     "regular": 18.13,
-     "cut": 0,
-     "url": "https://itad.link/018d9386-51a6-72f9-a2cb-cb383bee6e0c/?app=bc8ok8"
-    }
-   ],
-   "slug": "drawn-dark-flight-collector-s-edition-451140"
+   "url": "https://store.steampowered.com/app/4188070/",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4188070/header.jpg",
+   "slug": "hop-to-bunny-restaurant-4188070"
   },
   {
-   "id": "1480010",
-   "title": "Christmas Stories: The Christmas Tree Forest Collectors Edition",
-   "price": 6.82,
-   "orig": 19.5,
-   "disc": 65,
+   "id": "4374020",
+   "title": "GoGeez",
+   "price": 4.41,
+   "orig": 5.19,
+   "disc": 15,
    "mc": 0,
-   "rating": "Positive",
-   "ratingPct": 95,
-   "ratingCount": 21,
+   "rating": null,
+   "ratingPct": 0,
+   "ratingCount": 0,
    "store": "Steam",
-   "url": "https://store.steampowered.com/app/1480010/",
-   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1480010/header.jpg",
-   "low": 2.45,
+   "url": "https://store.steampowered.com/app/4374020/",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4374020/header.jpg",
+   "low": 4.41,
    "shops": [
     {
      "shop": "Steam",
-     "price": 6.82,
-     "regular": 19.5,
-     "cut": 65,
-     "url": "https://itad.link/018d9386-7b07-71a9-a1f6-d9fd82ef66ad/?app=bc8ok8"
-    },
-    {
-     "shop": "MacGameStore",
-     "price": 18.13,
-     "regular": 18.13,
-     "cut": 0,
-     "url": "https://itad.link/018d9386-7b07-71a9-a1f6-d9fd836f1a1f/?app=bc8ok8"
+     "price": 4.41,
+     "regular": 5.19,
+     "cut": 15,
+     "url": "https://itad.link/01a1c16a-2cfa-717a-9681-f32fed82ba2c/?app=bc8ok8"
     }
    ],
-   "slug": "christmas-stories-the-christmas-tree-forest-collectors-editi-1480010"
+   "slug": "gogeez-4374020"
   },
   {
-   "id": "493080",
-   "title": "Card Quest",
-   "price": 4.09,
-   "orig": 8.19,
-   "disc": 50,
+   "id": "5345280",
+   "title": "Kart League Manager",
+   "price": 7.39,
+   "orig": 9.24,
+   "disc": 20,
    "mc": 0,
-   "rating": "Very Positive",
-   "ratingPct": 87,
-   "ratingCount": 335,
+   "rating": null,
+   "ratingPct": 0,
+   "ratingCount": 0,
    "store": "Steam",
-   "url": "https://store.steampowered.com/app/493080/",
-   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/493080/header.jpg",
-   "low": 1.05,
+   "url": "https://store.steampowered.com/app/5345280/",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5345280/header.jpg",
+   "low": 7.39,
    "shops": [
     {
      "shop": "Steam",
-     "price": 4.09,
-     "regular": 8.19,
-     "cut": 50,
-     "url": "https://itad.link/018d9386-3a00-7160-8a32-b595401e5ed1/?app=bc8ok8"
+     "price": 7.39,
+     "regular": 9.24,
+     "cut": 20,
+     "url": "https://itad.link/01a19bc1-f6d5-726b-a4a1-e0cc3b3958a7/?app=bc8ok8"
     }
    ],
-   "slug": "card-quest-493080"
+   "slug": "kart-league-manager-5345280"
   },
   {
    "id": "281860",
@@ -8122,153 +8138,6 @@
    "slug": "reflex-281860"
   },
   {
-   "id": "50970",
-   "title": "Mystery Case Files: Madame Fate",
-   "price": 3.41,
-   "orig": 9.75,
-   "disc": 65,
-   "mc": 0,
-   "rating": "Mostly Positive",
-   "ratingPct": 77,
-   "ratingCount": 98,
-   "store": "Steam",
-   "url": "https://store.steampowered.com/app/50970/",
-   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/50970/header.jpg",
-   "low": 2.09,
-   "shops": [
-    {
-     "shop": "Steam",
-     "price": 3.41,
-     "regular": 9.75,
-     "cut": 65,
-     "url": "https://itad.link/018d9386-9e1d-7077-af5c-88e836d1589f/?app=bc8ok8"
-    }
-   ],
-   "slug": "mystery-case-files-madame-fate-50970"
-  },
-  {
-   "id": "1457940",
-   "title": "Yuhas Nightmares. Episode One: Catastrophe",
-   "price": 8.72,
-   "orig": 9.69,
-   "disc": 10,
-   "mc": 0,
-   "rating": null,
-   "ratingPct": 0,
-   "ratingCount": 0,
-   "store": "Steam",
-   "url": "https://store.steampowered.com/app/1457940/",
-   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1457940/header.jpg",
-   "low": 8.72,
-   "shops": [
-    {
-     "shop": "Steam",
-     "price": 8.72,
-     "regular": 9.69,
-     "cut": 10,
-     "url": "https://itad.link/01a1c63e-381c-70b8-85ce-ce5543cc3b92/?app=bc8ok8"
-    }
-   ],
-   "slug": "yuhas-nightmares-episode-one-catastrophe-1457940"
-  },
-  {
-   "id": "51010",
-   "title": "My Tribe",
-   "price": 3.49,
-   "orig": 9.99,
-   "disc": 65,
-   "mc": 0,
-   "rating": "Very Positive",
-   "ratingPct": 84,
-   "ratingCount": 135,
-   "store": "Steam",
-   "url": "https://store.steampowered.com/app/51010/",
-   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/51010/header.jpg",
-   "low": 2.99,
-   "shops": [
-    {
-     "shop": "Steam",
-     "price": 3.49,
-     "regular": 9.99,
-     "cut": 65,
-     "url": "https://itad.link/018d9386-9f5d-7181-8659-12c182611f6a/?app=bc8ok8"
-    },
-    {
-     "shop": "MacGameStore",
-     "price": 9.06,
-     "regular": 9.06,
-     "cut": 0,
-     "url": "https://itad.link/018d9386-9f5d-7181-8659-12c180e9b598/?app=bc8ok8"
-    }
-   ],
-   "slug": "my-tribe-51010"
-  },
-  {
-   "id": "524600",
-   "title": "Dark Parables: Curse of Briar Rose Collector's Edition",
-   "price": 6.82,
-   "orig": 19.5,
-   "disc": 65,
-   "mc": 0,
-   "rating": "Very Positive",
-   "ratingPct": 83,
-   "ratingCount": 101,
-   "store": "Steam",
-   "url": "https://store.steampowered.com/app/524600/",
-   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/524600/header.jpg",
-   "low": 2.99,
-   "shops": [
-    {
-     "shop": "Steam",
-     "price": 6.82,
-     "regular": 19.5,
-     "cut": 65,
-     "url": "https://itad.link/018d9386-47b9-717c-b61e-9e2565dbe432/?app=bc8ok8"
-    }
-   ],
-   "slug": "dark-parables-curse-of-briar-rose-collector-s-edition-524600"
-  },
-  {
-   "id": "50980",
-   "title": "Mystery Case Files: Prime Suspects",
-   "price": 3.41,
-   "orig": 9.75,
-   "disc": 65,
-   "mc": 0,
-   "rating": "Very Positive",
-   "ratingPct": 87,
-   "ratingCount": 95,
-   "store": "Steam",
-   "url": "https://store.steampowered.com/app/50980/",
-   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/50980/header.jpg",
-   "slug": "mystery-case-files-prime-suspects-50980"
-  },
-  {
-   "id": "50960",
-   "title": "Mystery Case Files: Huntsville",
-   "price": 3.49,
-   "orig": 9.99,
-   "disc": 65,
-   "mc": 0,
-   "rating": "Very Positive",
-   "ratingPct": 85,
-   "ratingCount": 122,
-   "store": "Steam",
-   "url": "https://store.steampowered.com/app/50960/",
-   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/50960/header.jpg",
-   "low": 0.99,
-   "shops": [
-    {
-     "shop": "Steam",
-     "price": 3.49,
-     "regular": 9.99,
-     "cut": 65,
-     "url": "https://itad.link/018d9386-9e1c-7196-bcd2-b32b44a04132/?app=bc8ok8"
-    }
-   ],
-   "slug": "mystery-case-files-huntsville-50960"
-  },
-  {
    "id": "539270",
    "title": "Mahjong",
    "price": 0.99,
@@ -8294,18 +8163,642 @@
    "slug": "mahjong-539270"
   },
   {
-   "id": "514700",
-   "title": "Mystery Case Files: 13th Skull Collector's Edition",
+   "id": "5185750",
+   "title": "Trafficity",
+   "price": 13.04,
+   "orig": 14.49,
+   "disc": 10,
+   "mc": 0,
+   "rating": null,
+   "ratingPct": 0,
+   "ratingCount": 0,
+   "store": "Steam",
+   "url": "https://store.steampowered.com/app/5185750/",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5185750/header.jpg",
+   "low": 13.04,
+   "shops": [
+    {
+     "shop": "Steam",
+     "price": 13.04,
+     "regular": 14.49,
+     "cut": 10,
+     "url": "https://itad.link/01a1e3f6-40ca-71eb-8ca3-786bb4f143f7/?app=bc8ok8"
+    }
+   ],
+   "slug": "trafficity-5185750"
+  },
+  {
+   "id": "2576150",
+   "title": "LET IT DIE: INFERNO",
+   "price": 22.49,
+   "orig": 44.99,
+   "disc": 50,
+   "mc": 54,
+   "rating": "Mixed",
+   "ratingPct": 52,
+   "ratingCount": 820,
+   "store": "Steam",
+   "url": "https://store.steampowered.com/app/2576150/",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2576150/header.jpg",
+   "low": 7.49,
+   "shops": [
+    {
+     "shop": "Steam",
+     "price": 24.99,
+     "regular": 24.99,
+     "cut": 0,
+     "url": "https://itad.link/019b0091-f2df-710b-b837-bf67a47e8bde/?app=bc8ok8"
+    }
+   ],
+   "slug": "let-it-die-inferno-2576150"
+  },
+  {
+   "id": "3438810",
+   "title": "Princess Maker : Children of Revelation",
+   "price": 27.19,
+   "orig": 33.99,
+   "disc": 20,
+   "mc": 0,
+   "rating": "Mostly Positive",
+   "ratingPct": 77,
+   "ratingCount": 1304,
+   "store": "Steam",
+   "url": "https://store.steampowered.com/app/3438810/",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3438810/header.jpg",
+   "low": 27.19,
+   "shops": [
+    {
+     "shop": "Steam",
+     "price": 27.19,
+     "regular": 33.99,
+     "cut": 20,
+     "url": "https://itad.link/0197d347-bd9b-73f3-ba4d-315182b3a5d1/?app=bc8ok8"
+    }
+   ],
+   "slug": "princess-maker-children-of-revelation-3438810"
+  },
+  {
+   "id": "4444800",
+   "title": "Obey Me! Sinners Choice: Lucifer",
+   "price": 27.44,
+   "orig": 30.49,
+   "disc": 10,
+   "mc": 0,
+   "rating": null,
+   "ratingPct": 0,
+   "ratingCount": 0,
+   "store": "Steam",
+   "url": "https://store.steampowered.com/app/4444800/",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4444800/header.jpg",
+   "low": 27.44,
+   "shops": [
+    {
+     "shop": "Steam",
+     "price": 27.44,
+     "regular": 30.49,
+     "cut": 10,
+     "url": "https://itad.link/01a1e35f-2c85-73b4-a0c7-80dd0d332dfd/?app=bc8ok8"
+    }
+   ],
+   "slug": "obey-me-sinners-choice-lucifer-4444800"
+  },
+  {
+   "id": "3321460",
+   "title": "Crimson Desert Enhanced",
+   "price": 55.99,
+   "orig": 69.99,
+   "disc": 20,
+   "mc": 0,
+   "rating": "Very Positive",
+   "ratingPct": 86,
+   "ratingCount": 64517,
+   "store": "Steam",
+   "url": "https://store.steampowered.com/app/3321460/",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/header.jpg",
+   "low": 43.29,
+   "shops": [
+    {
+     "shop": "Steam",
+     "price": 55.99,
+     "regular": 69.99,
+     "cut": 20,
+     "url": "https://itad.link/019d081e-8af0-737a-8ab1-d79934db7269/?app=bc8ok8"
+    },
+    {
+     "shop": "Zapagames",
+     "price": 56.17,
+     "regular": 56.17,
+     "cut": 0,
+     "url": "https://itad.link/01a199c6-ef50-735b-a547-8515f30c8a95/?app=bc8ok8"
+    },
+    {
+     "shop": "GamesPlanet US",
+     "price": 57.24,
+     "regular": 63.6,
+     "cut": 10,
+     "url": "https://itad.link/019a543f-6c83-7193-90b4-6b84a91eb8b7/?app=bc8ok8"
+    },
+    {
+     "shop": "AllYouPlay",
+     "price": 59.48,
+     "regular": 69.99,
+     "cut": 15,
+     "url": "https://itad.link/019cdda1-4edd-72cc-abdd-bd85da6ca4be/?app=bc8ok8"
+    },
+    {
+     "shop": "GamesPlanet FR",
+     "price": 62.99,
+     "regular": 69.99,
+     "cut": 10,
+     "url": "https://itad.link/019a543f-5939-7053-9ef0-223cdfbc67e7/?app=bc8ok8"
+    },
+    {
+     "shop": "GamesPlanet DE",
+     "price": 62.99,
+     "regular": 69.99,
+     "cut": 10,
+     "url": "https://itad.link/019a543f-639c-73f3-ba60-7d695942659f/?app=bc8ok8"
+    },
+    {
+     "shop": "GamesPlanet UK",
+     "price": 65.89,
+     "regular": 65.89,
+     "cut": 0,
+     "url": "https://itad.link/019a543f-4e0e-725d-95c0-30033b737e0a/?app=bc8ok8"
+    },
+    {
+     "shop": "Humble Store",
+     "price": 69.99,
+     "regular": 69.99,
+     "cut": 0,
+     "url": "https://itad.link/019cfcf5-4b4e-73b0-8514-c9dc1733d4a5/?app=bc8ok8"
+    },
+    {
+     "shop": "Epic Game Store",
+     "price": 69.99,
+     "regular": 69.99,
+     "cut": 0,
+     "url": "https://itad.link/019d0862-88dc-732b-a568-a9b1e3e354f6/?app=bc8ok8"
+    },
+    {
+     "shop": "Fanatical",
+     "price": 69.99,
+     "regular": 69.99,
+     "cut": 0,
+     "url": "https://itad.link/019d082f-aada-70fb-8b98-09c9aaeafd00/?app=bc8ok8"
+    },
+    {
+     "shop": "Microsoft Store",
+     "price": 69.99,
+     "regular": 69.99,
+     "cut": 0,
+     "url": "https://itad.link/019d1a9a-67f4-7175-83dd-a8fe90d6c0dc/?app=bc8ok8"
+    },
+    {
+     "shop": "Dreamgame",
+     "price": 69.99,
+     "regular": 69.99,
+     "cut": 0,
+     "url": "https://itad.link/019cb8ad-4612-71cf-a067-2747c9892ae7/?app=bc8ok8"
+    },
+    {
+     "shop": "Muve",
+     "price": 71.9,
+     "regular": 71.9,
+     "cut": 0,
+     "url": "https://itad.link/019eb6e5-0762-71af-b925-4b10c64f77ca/?app=bc8ok8"
+    },
+    {
+     "shop": "Muve",
+     "price": 72.53,
+     "regular": 72.53,
+     "cut": 0,
+     "url": "https://itad.link/019eb6e5-08ab-7165-b5e7-f52332480a80/?app=bc8ok8"
+    },
+    {
+     "shop": "Muve",
+     "price": 88.9,
+     "regular": 88.9,
+     "cut": 0,
+     "url": "https://itad.link/01a12255-5ddc-7157-8740-e4ed76fc66cd/?app=bc8ok8"
+    }
+   ],
+   "slug": "crimson-desert-enhanced-3321460"
+  },
+  {
+   "id": "4878900",
+   "title": "Net Worthless",
+   "price": 13.16,
+   "orig": 15.49,
+   "disc": 15,
+   "mc": 0,
+   "rating": null,
+   "ratingPct": 0,
+   "ratingCount": 0,
+   "store": "Steam",
+   "url": "https://store.steampowered.com/app/4878900/",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4878900/header.jpg",
+   "low": 13.16,
+   "shops": [
+    {
+     "shop": "Steam",
+     "price": 13.16,
+     "regular": 15.49,
+     "cut": 15,
+     "url": "https://itad.link/01a1e3a3-e9a6-71c7-a873-d2e5c926caa2/?app=bc8ok8"
+    }
+   ],
+   "slug": "net-worthless-4878900"
+  },
+  {
+   "id": "1923450",
+   "title": "Building destruction",
+   "price": 10.0,
+   "orig": 20.0,
+   "disc": 50,
+   "mc": 0,
+   "rating": "Mixed",
+   "ratingPct": 54,
+   "ratingCount": 22,
+   "store": "Steam",
+   "url": "https://store.steampowered.com/app/1923450/",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1923450/header.jpg",
+   "low": 1.79,
+   "shops": [
+    {
+     "shop": "Steam",
+     "price": 10,
+     "regular": 20,
+     "cut": 50,
+     "url": "https://itad.link/018d9386-37c4-71db-8b65-9acfe0f76696/?app=bc8ok8"
+    }
+   ],
+   "slug": "building-destruction-1923450"
+  },
+  {
+   "id": "468570",
+   "title": "De-Void",
+   "price": 1.08,
+   "orig": 7.99,
+   "disc": 86,
+   "mc": 0,
+   "rating": "Mixed",
+   "ratingPct": 62,
+   "ratingCount": 86,
+   "store": "WinGameStore",
+   "url": "https://itad.link/018d9386-4d19-73b5-a6b6-d5717bfd6431/?app=bc8ok8",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/468570/header.jpg",
+   "low": 0.5,
+   "shops": [
+    {
+     "shop": "WinGameStore",
+     "price": 1.08,
+     "regular": 7.26,
+     "cut": 85,
+     "url": "https://itad.link/018d9386-4d19-73b5-a6b6-d5717bfd6431/?app=bc8ok8"
+    },
+    {
+     "shop": "Steam",
+     "price": 1.99,
+     "regular": 7.99,
+     "cut": 75,
+     "url": "https://itad.link/018d9386-4d19-73b5-a6b6-d5717ed6e25e/?app=bc8ok8"
+    },
+    {
+     "shop": "IndieGala Store",
+     "price": 7.99,
+     "regular": 7.99,
+     "cut": 0,
+     "url": "https://itad.link/018d9386-4d19-73b5-a6b6-d571764eec71/?app=bc8ok8"
+    }
+   ],
+   "steamPrice": 1.99,
+   "slug": "de-void-468570"
+  },
+  {
+   "id": "4520400",
+   "title": "Periapsis: Gravity Slingshot",
+   "price": 4.34,
+   "orig": 5.79,
+   "disc": 25,
+   "mc": 0,
+   "rating": "Mostly Positive",
+   "ratingPct": 78,
+   "ratingCount": 28,
+   "store": "Steam",
+   "url": "https://store.steampowered.com/app/4520400/",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4520400/header.jpg",
+   "low": 4.34,
+   "shops": [
+    {
+     "shop": "Steam",
+     "price": 4.34,
+     "regular": 5.79,
+     "cut": 25,
+     "url": "https://itad.link/019f877f-b297-70e0-8ffc-078b953b290d/?app=bc8ok8"
+    }
+   ],
+   "slug": "periapsis-gravity-slingshot-4520400"
+  },
+  {
+   "id": "4674970",
+   "title": "Cheese Stack",
+   "price": 0.54,
+   "orig": 1.09,
+   "disc": 50,
+   "mc": 0,
+   "rating": null,
+   "ratingPct": 0,
+   "ratingCount": 0,
+   "store": "Steam",
+   "url": "https://store.steampowered.com/app/4674970/",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4674970/header.jpg",
+   "low": 0.54,
+   "shops": [
+    {
+     "shop": "Steam",
+     "price": 0.54,
+     "regular": 1.09,
+     "cut": 50,
+     "url": "https://itad.link/019ecc58-a54e-7099-9f2d-0557630b2ee0/?app=bc8ok8"
+    }
+   ],
+   "slug": "cheese-stack-4674970"
+  },
+  {
+   "id": "3638420",
+   "title": "Inspiral: Echoes of Gravity",
+   "price": 2.52,
+   "orig": 3.89,
+   "disc": 35,
+   "mc": 0,
+   "rating": "Mostly Positive",
+   "ratingPct": 73,
+   "ratingCount": 57,
+   "store": "Steam",
+   "url": "https://store.steampowered.com/app/3638420/",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3638420/header.jpg",
+   "low": 2.52,
+   "shops": [
+    {
+     "shop": "Steam",
+     "price": 2.52,
+     "regular": 3.89,
+     "cut": 35,
+     "url": "https://itad.link/019a6288-eeff-7016-b3d5-45797ead694a/?app=bc8ok8"
+    }
+   ],
+   "slug": "inspiral-echoes-of-gravity-3638420"
+  },
+  {
+   "id": "2686580",
+   "title": "Trinity Survivors",
+   "price": 4.87,
+   "orig": 9.75,
+   "disc": 50,
+   "mc": 0,
+   "rating": "Mostly Positive",
+   "ratingPct": 70,
+   "ratingCount": 317,
+   "store": "Steam",
+   "url": "https://store.steampowered.com/app/2686580/",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2686580/header.jpg",
+   "low": 4.87,
+   "shops": [
+    {
+     "shop": "Steam",
+     "price": 4.87,
+     "regular": 9.75,
+     "cut": 50,
+     "url": "https://itad.link/018d9386-e8a4-71ea-9634-c192ba1d6bc0/?app=bc8ok8"
+    }
+   ],
+   "slug": "trinity-survivors-2686580"
+  },
+  {
+   "id": "50930",
+   "title": "Hidden Expedition: Everest",
+   "price": 3.49,
+   "orig": 9.99,
+   "disc": 65,
+   "mc": 0,
+   "rating": "Mostly Positive",
+   "ratingPct": 76,
+   "ratingCount": 21,
+   "store": "Steam",
+   "url": "https://store.steampowered.com/app/50930/",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/50930/header.jpg",
+   "low": 2.99,
+   "shops": [
+    {
+     "shop": "Steam",
+     "price": 3.49,
+     "regular": 9.99,
+     "cut": 65,
+     "url": "https://itad.link/018d9386-74ce-722a-bf2d-b5c561fa0972/?app=bc8ok8"
+    },
+    {
+     "shop": "MacGameStore",
+     "price": 9.08,
+     "regular": 9.08,
+     "cut": 0,
+     "url": "https://itad.link/018d9386-74ce-722a-bf2d-b5c560fb46c6/?app=bc8ok8"
+    }
+   ],
+   "slug": "hidden-expedition-everest-50930"
+  },
+  {
+   "id": "4827540",
+   "title": "Galactic Simulator 3",
+   "price": 5.09,
+   "orig": 6.79,
+   "disc": 25,
+   "mc": 0,
+   "rating": "Positive",
+   "ratingPct": 100,
+   "ratingCount": 21,
+   "store": "Steam",
+   "url": "https://store.steampowered.com/app/4827540/",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4827540/header.jpg",
+   "low": 5.09,
+   "shops": [
+    {
+     "shop": "Steam",
+     "price": 5.09,
+     "regular": 6.79,
+     "cut": 25,
+     "url": "https://itad.link/01a06b45-a40d-717a-a821-475ccbd13b20/?app=bc8ok8"
+    }
+   ],
+   "slug": "galactic-simulator-3-4827540"
+  },
+  {
+   "id": "3465190",
+   "title": "Aerial_Knights DropShot",
+   "price": 5.85,
+   "orig": 19.5,
+   "disc": 70,
+   "mc": 0,
+   "rating": "Positive",
+   "ratingPct": 91,
+   "ratingCount": 23,
+   "store": "Steam",
+   "url": "https://store.steampowered.com/app/3465190/",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3465190/header.jpg",
+   "low": 3.99,
+   "shops": [
+    {
+     "shop": "Steam",
+     "price": 5.85,
+     "regular": 19.5,
+     "cut": 70,
+     "url": "https://itad.link/019c6aef-bafb-73d0-9814-646dc9e9ea44/?app=bc8ok8"
+    },
+    {
+     "shop": "Epic Game Store",
+     "price": 17.99,
+     "regular": 17.99,
+     "cut": 0,
+     "url": "https://itad.link/0196afb4-f93d-7249-81f4-d0d67978c8f7/?app=bc8ok8"
+    },
+    {
+     "shop": "Microsoft Store",
+     "price": 19.99,
+     "regular": 19.99,
+     "cut": 0,
+     "url": "https://itad.link/019c691d-658b-7304-94b1-16b773247830/?app=bc8ok8"
+    }
+   ],
+   "slug": "aerial-knights-dropshot-3465190"
+  },
+  {
+   "id": "5044500",
+   "title": "Palehollow Hospital",
+   "price": 3.5,
+   "orig": 3.89,
+   "disc": 10,
+   "mc": 0,
+   "rating": "Positive",
+   "ratingPct": 86,
+   "ratingCount": 22,
+   "store": "Steam",
+   "url": "https://store.steampowered.com/app/5044500/",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5044500/header.jpg",
+   "low": 3.5,
+   "shops": [
+    {
+     "shop": "Steam",
+     "price": 3.5,
+     "regular": 3.89,
+     "cut": 10,
+     "url": "https://itad.link/01a1d49e-a854-7032-988d-97aed2d30bfd/?app=bc8ok8"
+    }
+   ],
+   "slug": "palehollow-hospital-5044500"
+  },
+  {
+   "id": "4802530",
+   "title": "Fox Stamps",
+   "price": 9.22,
+   "orig": 10.25,
+   "disc": 10,
+   "mc": 0,
+   "rating": "Positive",
+   "ratingPct": 100,
+   "ratingCount": 21,
+   "store": "Steam",
+   "url": "https://store.steampowered.com/app/4802530/",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4802530/header.jpg",
+   "low": 9.22,
+   "shops": [
+    {
+     "shop": "Steam",
+     "price": 9.22,
+     "regular": 10.25,
+     "cut": 10,
+     "url": "https://itad.link/01a1d190-0109-71b2-9755-68e74e189d42/?app=bc8ok8"
+    }
+   ],
+   "slug": "fox-stamps-4802530"
+  },
+  {
+   "id": "4683860",
+   "title": "Calmaria: Wild Growth",
+   "price": 8.2,
+   "orig": 10.25,
+   "disc": 20,
+   "mc": 0,
+   "rating": "Positive",
+   "ratingPct": 90,
+   "ratingCount": 20,
+   "store": "Steam",
+   "url": "https://store.steampowered.com/app/4683860/",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4683860/header.jpg",
+   "low": 8.2,
+   "shops": [
+    {
+     "shop": "Steam",
+     "price": 8.2,
+     "regular": 10.25,
+     "cut": 20,
+     "url": "https://itad.link/01a1c6fe-6f39-71a7-96b8-27cf1c9c0357/?app=bc8ok8"
+    }
+   ],
+   "slug": "calmaria-wild-growth-4683860"
+  },
+  {
+   "id": "5494770",
+   "title": "Star Guardian Tilcrown",
+   "price": 13.23,
+   "orig": 18.9,
+   "disc": 30,
+   "mc": 0,
+   "rating": null,
+   "ratingPct": 0,
+   "ratingCount": 0,
+   "store": "Steam",
+   "url": "https://store.steampowered.com/app/5494770/",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5494770/header.jpg",
+   "slug": "star-guardian-tilcrown-5494770"
+  },
+  {
+   "id": "1196390",
+   "title": "Fairy Godmother Stories: Cinderella Collectors Edition",
    "price": 6.82,
    "orig": 19.5,
    "disc": 65,
    "mc": 0,
-   "rating": "Very Positive",
-   "ratingPct": 85,
-   "ratingCount": 172,
+   "rating": null,
+   "ratingPct": 0,
+   "ratingCount": 0,
    "store": "Steam",
-   "url": "https://store.steampowered.com/app/514700/",
-   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/514700/header.jpg",
+   "url": "https://store.steampowered.com/app/1196390/",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1196390/header.jpg",
+   "low": 2.45,
+   "shops": [
+    {
+     "shop": "Steam",
+     "price": 6.82,
+     "regular": 19.5,
+     "cut": 65,
+     "url": "https://itad.link/018d9386-5d0d-7284-85bc-d31f430662e0/?app=bc8ok8"
+    }
+   ],
+   "slug": "fairy-godmother-stories-cinderella-collectors-edition-1196390"
+  },
+  {
+   "id": "623470",
+   "title": "League of Light: Wicked Harvest Collectors Edition",
+   "price": 6.82,
+   "orig": 19.5,
+   "disc": 65,
+   "mc": 0,
+   "rating": null,
+   "ratingPct": 0,
+   "ratingCount": 0,
+   "store": "Steam",
+   "url": "https://store.steampowered.com/app/623470/",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/623470/header.jpg",
    "low": 2.99,
    "shops": [
     {
@@ -8313,484 +8806,17 @@
      "price": 6.82,
      "regular": 19.5,
      "cut": 65,
-     "url": "https://itad.link/018d9386-9e1c-7196-bcd2-b32b4bfe10d8/?app=bc8ok8"
+     "url": "https://itad.link/018d9386-89d8-7242-a5ed-ea2e8e15094a/?app=bc8ok8"
     },
     {
      "shop": "MacGameStore",
-     "price": 18.13,
-     "regular": 18.13,
+     "price": 18.16,
+     "regular": 18.16,
      "cut": 0,
-     "url": "https://itad.link/018d9386-9e1c-7196-bcd2-b32b4b55cdef/?app=bc8ok8"
+     "url": "https://itad.link/018d9386-89d8-7242-a5ed-ea2e8c3606e5/?app=bc8ok8"
     }
    ],
-   "slug": "mystery-case-files-13th-skull-collector-s-edition-514700"
-  },
-  {
-   "id": "51000",
-   "title": "Mystery Case Files: Return to Ravenhearst",
-   "price": 3.49,
-   "orig": 9.99,
-   "disc": 65,
-   "mc": 0,
-   "rating": "Very Positive",
-   "ratingPct": 85,
-   "ratingCount": 155,
-   "store": "Steam",
-   "url": "https://store.steampowered.com/app/51000/",
-   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/51000/header.jpg",
-   "low": 1.82,
-   "shops": [
-    {
-     "shop": "Steam",
-     "price": 3.49,
-     "regular": 9.99,
-     "cut": 65,
-     "url": "https://itad.link/018d9386-9e1d-7077-af5c-88e851c0c9e2/?app=bc8ok8"
-    },
-    {
-     "shop": "Microsoft Store",
-     "price": 4.99,
-     "regular": 4.99,
-     "cut": 0,
-     "url": "https://itad.link/018d9386-9e1d-7077-af5c-88e852582563/?app=bc8ok8"
-    },
-    {
-     "shop": "MacGameStore",
-     "price": 9.06,
-     "regular": 9.06,
-     "cut": 0,
-     "url": "https://itad.link/018d9386-9e1d-7077-af5c-88e850707a2e/?app=bc8ok8"
-    }
-   ],
-   "slug": "mystery-case-files-return-to-ravenhearst-51000"
-  },
-  {
-   "id": "3412560",
-   "title": "Retro Endurance 8bit",
-   "price": 3.19,
-   "orig": 3.99,
-   "disc": 20,
-   "mc": 0,
-   "rating": "Very Positive",
-   "ratingPct": 100,
-   "ratingCount": 61,
-   "store": "Steam",
-   "url": "https://store.steampowered.com/app/3412560/",
-   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3412560/header.jpg",
-   "low": 1.99,
-   "shops": [
-    {
-     "shop": "Steam",
-     "price": 3.19,
-     "regular": 3.99,
-     "cut": 20,
-     "url": "https://itad.link/0194901a-d2d7-73e9-ad32-7bf7e492e197/?app=bc8ok8"
-    }
-   ],
-   "slug": "retro-endurance-8bit-3412560"
-  },
-  {
-   "id": "50990",
-   "title": "Mystery Case Files: Ravenhearst",
-   "price": 3.49,
-   "orig": 9.99,
-   "disc": 65,
-   "mc": 0,
-   "rating": "Very Positive",
-   "ratingPct": 89,
-   "ratingCount": 182,
-   "store": "Steam",
-   "url": "https://store.steampowered.com/app/50990/",
-   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/50990/header.jpg",
-   "low": 0.99,
-   "shops": [
-    {
-     "shop": "Steam",
-     "price": 3.49,
-     "regular": 9.99,
-     "cut": 65,
-     "url": "https://itad.link/018d9386-9e1d-7077-af5c-88e845c71ca9/?app=bc8ok8"
-    }
-   ],
-   "slug": "mystery-case-files-ravenhearst-50990"
-  },
-  {
-   "id": "3239360",
-   "title": "Beat, Heart, Beat",
-   "price": 7.81,
-   "orig": 9.19,
-   "disc": 15,
-   "mc": 0,
-   "rating": "Very Positive",
-   "ratingPct": 100,
-   "ratingCount": 76,
-   "store": "Steam",
-   "url": "https://store.steampowered.com/app/3239360/",
-   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3239360/header.jpg",
-   "low": 6.89,
-   "shops": [
-    {
-     "shop": "Steam",
-     "price": 7.81,
-     "regular": 9.19,
-     "cut": 15,
-     "url": "https://itad.link/01a121ab-643d-73e7-b42d-eea7d7b16175/?app=bc8ok8"
-    }
-   ],
-   "slug": "beat-heart-beat-3239360"
-  },
-  {
-   "id": "2429930",
-   "title": "Power Network Tycoon",
-   "price": 11.09,
-   "orig": 14.79,
-   "disc": 25,
-   "mc": 0,
-   "rating": "Positive",
-   "ratingPct": 93,
-   "ratingCount": 32,
-   "store": "Steam",
-   "url": "https://store.steampowered.com/app/2429930/",
-   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2429930/header.jpg",
-   "low": 9.9,
-   "shops": [
-    {
-     "shop": "Steam",
-     "price": 11.09,
-     "regular": 14.79,
-     "cut": 25,
-     "url": "https://itad.link/018da146-ceb0-720d-8110-fb6184fea01b/?app=bc8ok8"
-    },
-    {
-     "shop": "WinGameStore",
-     "price": 13.6,
-     "regular": 13.6,
-     "cut": 0,
-     "url": "https://itad.link/01966de5-aa57-708f-ae45-674c1f69166d/?app=bc8ok8"
-    },
-    {
-     "shop": "MacGameStore",
-     "price": 13.6,
-     "regular": 13.6,
-     "cut": 0,
-     "url": "https://itad.link/01966de5-9da3-7143-a0f6-413e38fa6bea/?app=bc8ok8"
-    },
-    {
-     "shop": "Humble Store",
-     "price": 14.79,
-     "regular": 14.79,
-     "cut": 0,
-     "url": "https://itad.link/01a0453e-aad9-7138-b00a-873c04179ae7/?app=bc8ok8"
-    }
-   ],
-   "slug": "power-network-tycoon-2429930"
-  },
-  {
-   "id": "3737610",
-   "title": "Explosiovania",
-   "price": 12.14,
-   "orig": 13.49,
-   "disc": 10,
-   "mc": 0,
-   "rating": null,
-   "ratingPct": 0,
-   "ratingCount": 0,
-   "store": "Steam",
-   "url": "https://store.steampowered.com/app/3737610/",
-   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3737610/header.jpg",
-   "low": 12.14,
-   "shops": [
-    {
-     "shop": "Steam",
-     "price": 12.14,
-     "regular": 13.49,
-     "cut": 10,
-     "url": "https://itad.link/01a1d14b-3996-7014-bf07-c2fe4230621b/?app=bc8ok8"
-    }
-   ],
-   "slug": "explosiovania-3737610"
-  },
-  {
-   "id": "1173220",
-   "title": "Bleak Faith: Forsaken",
-   "price": 14.49,
-   "orig": 28.99,
-   "disc": 50,
-   "mc": 63,
-   "rating": "Mostly Positive",
-   "ratingPct": 75,
-   "ratingCount": 1962,
-   "store": "Steam",
-   "url": "https://store.steampowered.com/app/1173220/",
-   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1173220/header.jpg",
-   "low": 14.49,
-   "shops": [
-    {
-     "shop": "GOG",
-     "price": 14.49,
-     "regular": 28.99,
-     "cut": 50,
-     "url": "https://itad.link/018d9386-321c-7331-a949-aa5b0b0bc155/?app=bc8ok8"
-    },
-    {
-     "shop": "Steam",
-     "price": 14.49,
-     "regular": 28.99,
-     "cut": 50,
-     "url": "https://itad.link/018d9386-321c-7331-a949-aa5b0ba4d959/?app=bc8ok8"
-    }
-   ],
-   "slug": "bleak-faith-forsaken-1173220"
-  },
-  {
-   "id": "5242350",
-   "title": "I Only Moved My Mouse",
-   "price": 9.99,
-   "orig": 12.49,
-   "disc": 20,
-   "mc": 0,
-   "rating": null,
-   "ratingPct": 0,
-   "ratingCount": 0,
-   "store": "Steam",
-   "url": "https://store.steampowered.com/app/5242350/",
-   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5242350/header.jpg",
-   "low": 9.99,
-   "shops": [
-    {
-     "shop": "Steam",
-     "price": 9.99,
-     "regular": 12.49,
-     "cut": 20,
-     "url": "https://itad.link/01a1b092-2233-7223-86f4-127dca3cef69/?app=bc8ok8"
-    }
-   ],
-   "slug": "i-only-moved-my-mouse-5242350"
-  },
-  {
-   "id": "2697940",
-   "title": "Ascend to ZERO",
-   "price": 9.74,
-   "orig": 12.99,
-   "disc": 25,
-   "mc": 82,
-   "rating": "Very Positive",
-   "ratingPct": 81,
-   "ratingCount": 917,
-   "store": "Steam",
-   "url": "https://store.steampowered.com/app/2697940/",
-   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2697940/header.jpg",
-   "low": 9.74,
-   "shops": [
-    {
-     "shop": "Steam",
-     "price": 9.74,
-     "regular": 12.99,
-     "cut": 25,
-     "url": "https://itad.link/019f5a54-7feb-70cd-888e-230663f3659c/?app=bc8ok8"
-    },
-    {
-     "shop": "Fanatical",
-     "price": 12.34,
-     "regular": 12.99,
-     "cut": 5,
-     "url": "https://itad.link/01a0f68b-fa57-7090-af66-3a152f46a35c/?app=bc8ok8"
-    },
-    {
-     "shop": "Microsoft Store",
-     "price": 12.99,
-     "regular": 12.99,
-     "cut": 0,
-     "url": "https://itad.link/019f3cd8-a049-72d9-8ef3-81b80565993c/?app=bc8ok8"
-    },
-    {
-     "shop": "Humble Store",
-     "price": 12.99,
-     "regular": 12.99,
-     "cut": 0,
-     "url": "https://itad.link/01a169e0-a7ab-7269-aad9-0200399627b9/?app=bc8ok8"
-    }
-   ],
-   "slug": "ascend-to-zero-2697940"
-  },
-  {
-   "id": "4596010",
-   "title": "Bar After Bar",
-   "price": 3.98,
-   "orig": 6.99,
-   "disc": 43,
-   "mc": 0,
-   "rating": "Very Positive",
-   "ratingPct": 88,
-   "ratingCount": 408,
-   "store": "Steam",
-   "url": "https://store.steampowered.com/app/4596010/",
-   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4596010/header.jpg",
-   "low": 3.98,
-   "shops": [
-    {
-     "shop": "Steam",
-     "price": 3.98,
-     "regular": 6.99,
-     "cut": 43,
-     "url": "https://itad.link/01a03457-1e79-722f-8f92-ea5d8ef382e3/?app=bc8ok8"
-    }
-   ],
-   "slug": "bar-after-bar-4596010"
-  },
-  {
-   "id": "3523750",
-   "title": "Down with the Ship",
-   "price": 9.74,
-   "orig": 14.99,
-   "disc": 35,
-   "mc": 0,
-   "rating": "Very Positive",
-   "ratingPct": 92,
-   "ratingCount": 879,
-   "store": "Steam",
-   "url": "https://store.steampowered.com/app/3523750/",
-   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3523750/header.jpg",
-   "low": 9.74,
-   "shops": [
-    {
-     "shop": "Steam",
-     "price": 9.74,
-     "regular": 14.99,
-     "cut": 35,
-     "url": "https://itad.link/019e2c42-97e5-70e2-b4d7-f95ad32286dc/?app=bc8ok8"
-    }
-   ],
-   "slug": "down-with-the-ship-3523750"
-  },
-  {
-   "id": "4613340",
-   "title": "Bannerlings",
-   "price": 7.49,
-   "orig": 9.99,
-   "disc": 25,
-   "mc": 0,
-   "rating": null,
-   "ratingPct": 0,
-   "ratingCount": 0,
-   "store": "Steam",
-   "url": "https://store.steampowered.com/app/4613340/",
-   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4613340/header.jpg",
-   "low": 7.49,
-   "shops": [
-    {
-     "shop": "Steam",
-     "price": 7.49,
-     "regular": 9.99,
-     "cut": 25,
-     "url": "https://itad.link/01a1d5e9-72e1-70c8-b2b6-4f59b9544d87/?app=bc8ok8"
-    }
-   ],
-   "slug": "bannerlings-4613340"
-  },
-  {
-   "id": "4428630",
-   "title": "My Fire Is Bigger Than Yours",
-   "price": 4.79,
-   "orig": 5.99,
-   "disc": 20,
-   "mc": 0,
-   "rating": "Mostly Positive",
-   "ratingPct": 78,
-   "ratingCount": 267,
-   "store": "Steam",
-   "url": "https://store.steampowered.com/app/4428630/",
-   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4428630/header.jpg",
-   "low": 4.79,
-   "shops": [
-    {
-     "shop": "Steam",
-     "price": 4.79,
-     "regular": 5.99,
-     "cut": 20,
-     "url": "https://itad.link/01a054bd-e37b-7150-a0ec-b9ebd5fd6b9b/?app=bc8ok8"
-    }
-   ],
-   "slug": "my-fire-is-bigger-than-yours-4428630"
-  },
-  {
-   "id": "4243990",
-   "title": "Path of Idle: Old Gods Rising",
-   "price": 8.2,
-   "orig": 10.25,
-   "disc": 20,
-   "mc": 0,
-   "rating": "Mostly Positive",
-   "ratingPct": 77,
-   "ratingCount": 1338,
-   "store": "Steam",
-   "url": "https://store.steampowered.com/app/4243990/",
-   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4243990/header.jpg",
-   "slug": "path-of-idle-old-gods-rising-4243990"
-  },
-  {
-   "id": "5302870",
-   "title": "The Coin Keeper : Tidy up !",
-   "price": 5.22,
-   "orig": 6.15,
-   "disc": 15,
-   "mc": 0,
-   "rating": null,
-   "ratingPct": 0,
-   "ratingCount": 0,
-   "store": "Steam",
-   "url": "https://store.steampowered.com/app/5302870/",
-   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5302870/header.jpg",
-   "low": 5.22,
-   "shops": [
-    {
-     "shop": "Steam",
-     "price": 5.22,
-     "regular": 6.15,
-     "cut": 15,
-     "url": "https://itad.link/01a1d0f9-dca3-73d1-855c-bff2513f1c30/?app=bc8ok8"
-    }
-   ],
-   "slug": "the-coin-keeper-tidy-up-5302870"
-  },
-  {
-   "id": "1933000",
-   "title": "Luna Abyss",
-   "price": 20.99,
-   "orig": 29.99,
-   "disc": 30,
-   "mc": 80,
-   "rating": "Very Positive",
-   "ratingPct": 86,
-   "ratingCount": 986,
-   "store": "Steam",
-   "url": "https://store.steampowered.com/app/1933000/",
-   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1933000/header.jpg",
-   "low": 15,
-   "shops": [
-    {
-     "shop": "Steam",
-     "price": 20.99,
-     "regular": 29.99,
-     "cut": 30,
-     "url": "https://itad.link/019e4b0d-2f5c-70fd-a2d3-1ee2aab7d802/?app=bc8ok8"
-    },
-    {
-     "shop": "Epic Game Store",
-     "price": 26.99,
-     "regular": 26.99,
-     "cut": 0,
-     "url": "https://itad.link/019e2bb5-1f9c-7180-96df-fd139b5d8d83/?app=bc8ok8"
-    },
-    {
-     "shop": "Microsoft Store",
-     "price": 29.99,
-     "regular": 29.99,
-     "cut": 0,
-     "url": "https://itad.link/019e408c-0242-704a-9d1c-4da2858637e3/?app=bc8ok8"
-    }
-   ],
-   "slug": "luna-abyss-1933000"
+   "slug": "league-of-light-wicked-harvest-collectors-edition-623470"
   },
   {
    "id": "2406770",
@@ -8818,6 +8844,31 @@
    "slug": "bodycam-2406770"
   },
   {
+   "id": "5200620",
+   "title": "Dungeonbound",
+   "price": 10.34,
+   "orig": 11.49,
+   "disc": 10,
+   "mc": 0,
+   "rating": null,
+   "ratingPct": 0,
+   "ratingCount": 0,
+   "store": "Steam",
+   "url": "https://store.steampowered.com/app/5200620/",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5200620/b3a32d9086038acf42c9457c2bc062f93d90ea3e/header.jpg?t=1794825077",
+   "low": 10.34,
+   "shops": [
+    {
+     "shop": "Steam",
+     "price": 10.34,
+     "regular": 11.49,
+     "cut": 10,
+     "url": "https://itad.link/01a1e3a3-e9a9-70dc-a0ee-14e0c7e1f491/?app=bc8ok8"
+    }
+   ],
+   "slug": "dungeonbound-5200620"
+  },
+  {
    "id": "5185890",
    "title": "Zombies Aren't Real",
    "price": 8.09,
@@ -8843,34 +8894,24 @@
    "slug": "zombies-aren-t-real-5185890"
   },
   {
-   "id": "2584270",
-   "title": "Mortal Shell II",
-   "price": 37.49,
-   "orig": 49.99,
-   "disc": 25,
+   "id": "817628",
+   "title": "Grand Theft Auto: The Trilogy – The Definitive Edition",
+   "price": 19.79,
+   "orig": 59.99,
+   "disc": 67,
    "mc": 0,
    "rating": null,
    "ratingPct": 0,
    "ratingCount": 0,
    "store": "Steam",
-   "url": "https://store.steampowered.com/app/2584270/",
-   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2584270/0a4c23b70ced29fac344186ea564dae67c80cfd6/header.jpg?t=1794241756",
-   "low": 37.49,
-   "shops": [
-    {
-     "shop": "Steam",
-     "price": 37.49,
-     "regular": 49.99,
-     "cut": 25,
-     "url": "https://itad.link/01a01f42-2729-7341-8910-ec66dbdc1038/?app=bc8ok8"
-    }
-   ],
-   "slug": "mortal-shell-ii-2584270"
+   "url": "https://store.steampowered.com/app/817628/",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/subs/817628/header_ratio.jpg?t=1752520763",
+   "slug": "grand-theft-auto-the-trilogy-the-definitive-edition-817628"
   },
   {
    "id": "489830",
    "title": "The Elder Scrolls V: Skyrim Special Edition",
-   "price": 6.75,
+   "price": 6.76,
    "orig": 39.99,
    "disc": 83,
    "mc": 0,
@@ -8884,8 +8925,8 @@
    "shops": [
     {
      "shop": "GamesPlanet US",
-     "price": 6.75,
-     "regular": 36.28,
+     "price": 6.76,
+     "regular": 36.34,
      "cut": 81,
      "url": "https://itad.link/018d9386-56e9-714d-9c60-3b65dc459737/?app=bc8ok8"
     },
@@ -8920,7 +8961,7 @@
     {
      "shop": "GamesPlanet UK",
      "price": 7.84,
-     "regular": 41.94,
+     "regular": 41.93,
      "cut": 81,
      "url": "https://itad.link/018d9386-56e9-714d-9c60-3b65db48aec0/?app=bc8ok8"
     },
@@ -8971,44 +9012,29 @@
    "slug": "the-elder-scrolls-v-skyrim-special-edition-489830"
   },
   {
-   "id": "3629430",
-   "title": "DREADMOOR",
-   "price": 18.44,
-   "orig": 20.49,
-   "disc": 10,
+   "id": "2584270",
+   "title": "Mortal Shell II",
+   "price": 37.49,
+   "orig": 49.99,
+   "disc": 25,
    "mc": 0,
    "rating": null,
    "ratingPct": 0,
    "ratingCount": 0,
    "store": "Steam",
-   "url": "https://store.steampowered.com/app/3629430/",
-   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3629430/5b80c132b3479c69a92c25a5266db523850cfc36/header.jpg?t=1794233002",
-   "low": 18.44,
+   "url": "https://store.steampowered.com/app/2584270/",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2584270/0a4c23b70ced29fac344186ea564dae67c80cfd6/header.jpg?t=1794241756",
+   "low": 37.49,
    "shops": [
     {
      "shop": "Steam",
-     "price": 18.44,
-     "regular": 20.49,
-     "cut": 10,
-     "url": "https://itad.link/01a1c057-80c5-727c-90de-3831606de0ab/?app=bc8ok8"
+     "price": 37.49,
+     "regular": 49.99,
+     "cut": 25,
+     "url": "https://itad.link/01a01f42-2729-7341-8910-ec66dbdc1038/?app=bc8ok8"
     }
    ],
-   "slug": "dreadmoor-3629430"
-  },
-  {
-   "id": "817628",
-   "title": "Grand Theft Auto: The Trilogy – The Definitive Edition",
-   "price": 19.79,
-   "orig": 59.99,
-   "disc": 67,
-   "mc": 0,
-   "rating": null,
-   "ratingPct": 0,
-   "ratingCount": 0,
-   "store": "Steam",
-   "url": "https://store.steampowered.com/app/817628/",
-   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/subs/817628/header_ratio.jpg?t=1752520763",
-   "slug": "grand-theft-auto-the-trilogy-the-definitive-edition-817628"
+   "slug": "mortal-shell-ii-2584270"
   },
   {
    "id": "5378110",
@@ -9034,114 +9060,9 @@
     }
    ],
    "slug": "one-more-lawn-5378110"
-  },
-  {
-   "id": "2784470",
-   "title": "9 Kings",
-   "price": 9.06,
-   "orig": 19.99,
-   "disc": 55,
-   "mc": 0,
-   "rating": null,
-   "ratingPct": 0,
-   "ratingCount": 0,
-   "store": "GamesPlanet US",
-   "url": "https://itad.link/0196fd4d-9d09-7161-88b1-a6e32a73dff7/?app=bc8ok8",
-   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2784470/640a138fbc6918daa276a4653360eca9e4488b65/header.jpg?t=1794598226",
-   "low": 8.29,
-   "shops": [
-    {
-     "shop": "GamesPlanet US",
-     "price": 9.06,
-     "regular": 18.13,
-     "cut": 50,
-     "url": "https://itad.link/0196fd4d-9d09-7161-88b1-a6e32a73dff7/?app=bc8ok8"
-    },
-    {
-     "shop": "Microsoft Store",
-     "price": 9.99,
-     "regular": 19.99,
-     "cut": 50,
-     "url": "https://itad.link/0198a8c6-b161-71cc-bf82-657c636c06ea/?app=bc8ok8"
-    },
-    {
-     "shop": "GamesPlanet DE",
-     "price": 9.99,
-     "regular": 19.99,
-     "cut": 50,
-     "url": "https://itad.link/0196fd5f-6850-7122-9439-bacd1b7eaeee/?app=bc8ok8"
-    },
-    {
-     "shop": "Steam",
-     "price": 9.99,
-     "regular": 19.99,
-     "cut": 50,
-     "url": "https://itad.link/0196fd45-3ca4-73be-a402-ec272c3ee8a7/?app=bc8ok8"
-    },
-    {
-     "shop": "GOG",
-     "price": 9.99,
-     "regular": 19.99,
-     "cut": 50,
-     "url": "https://itad.link/019cd80c-ba39-730f-81d3-3c6ba278adc6/?app=bc8ok8"
-    },
-    {
-     "shop": "GamesPlanet FR",
-     "price": 9.99,
-     "regular": 19.99,
-     "cut": 50,
-     "url": "https://itad.link/0196fd5f-52eb-70e9-b8e6-03d81c84c063/?app=bc8ok8"
-    },
-    {
-     "shop": "AllYouPlay",
-     "price": 10,
-     "regular": 19.99,
-     "cut": 50,
-     "url": "https://itad.link/0196fd72-64f2-705a-8484-553924f263f6/?app=bc8ok8"
-    },
-    {
-     "shop": "GreenManGaming",
-     "price": 10,
-     "regular": 19.99,
-     "cut": 50,
-     "url": "https://itad.link/01996170-79e6-70dd-b739-bb7968871bf4/?app=bc8ok8"
-    },
-    {
-     "shop": "GamesPlanet UK",
-     "price": 10.78,
-     "regular": 21.57,
-     "cut": 50,
-     "url": "https://itad.link/0196fd4d-84dc-735b-a04a-e83012b7cbce/?app=bc8ok8"
-    },
-    {
-     "shop": "Epic Game Store",
-     "price": 19.99,
-     "regular": 19.99,
-     "cut": 0,
-     "url": "https://itad.link/019cd80c-ca89-737f-b578-61581f643184/?app=bc8ok8"
-    },
-    {
-     "shop": "Humble Store",
-     "price": 19.99,
-     "regular": 19.99,
-     "cut": 0,
-     "url": "https://itad.link/0196fee0-373b-710c-abb2-20ddab1ea095/?app=bc8ok8"
-    }
-   ],
-   "steamPrice": 9.99,
-   "slug": "9-kings-2784470"
   }
  ],
  "free": [
-  {
-   "title": "Alien: Isolation",
-   "orig": 39.99,
-   "start": "2026-11-19T16:00:00.000Z",
-   "end": "2026-11-26T16:00:00.000Z",
-   "now": false,
-   "img": "https://cdn1.epicgames.com/df37f065c3f14eadbf011177396e2966/offer/EGS_AlienIsolation_CreativeAssembly_S5-1920x1080-1cf3b9a86adcefeebf903451b1b3fb49.jpg",
-   "url": "https://store.epicgames.com/fi/p/alien-isolation"
-  },
   {
    "title": "Mark of the Deep",
    "orig": 19.5,
